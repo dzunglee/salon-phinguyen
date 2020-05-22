@@ -1,0 +1,58 @@
+{
+  "_from": "summernote-image-attributes-editor",
+  "_id": "summernote-image-attributes-editor@1.2.1",
+  "_inBundle": false,
+  "_integrity": "sha512-p3jTX+BvumrUiwaa/NianbIh5nWWoF+Ov26F73CGX/EncA4nb4RQPQkem0+xwX8QiBVNJr4sNsFTyhmcDMzFig==",
+  "_location": "/summernote-image-attributes-editor",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "summernote-image-attributes-editor",
+    "name": "summernote-image-attributes-editor",
+    "escapedName": "summernote-image-attributes-editor",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/summernote-image-attributes-editor/-/summernote-image-attributes-editor-1.2.1.tgz",
+  "_shasum": "e61879c5ff3e75c4610f6194d83a78925bed77a7",
+  "_spec": "summernote-image-attributes-editor",
+  "_where": "C:\\xampp\\htdocs\\sg\\combros-site",
+  "author": {
+    "name": "Adeel Hussain",
+    "email": "mr.adi180@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/adeelhussain/summernote-image-attribute-editor/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Summernote plugin for editing Image title, caption, alt attributes.",
+  "homepage": "https://github.com/adeelhussain/summernote-image-attribute-editor#readme",
+  "keywords": [
+    "summernote",
+    "editor",
+    "image",
+    "attribute",
+    "caption",
+    "alt",
+    "title",
+    "WYSIWYG"
+  ],
+  "license": "MIT",
+  "main": "summernote-image-attributes.js",
+  "name": "summernote-image-attributes-editor",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adeelhussain/summernote-image-attribute-editor.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.2.1"
+}

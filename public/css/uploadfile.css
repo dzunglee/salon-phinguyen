@@ -1,0 +1,64 @@
+.filedrag
+{
+    position: relative;
+    padding: 1em;
+    margin: 1em 0;
+}
+.filedrag .dragArea{
+    transition: all 0.5s ease;
+    z-index: -1;
+    opacity: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+    color: #555;
+    border: 2px dashed #555;
+    border-radius: 7px;
+    cursor: default;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #cccccc;
+}
+.filedrag.hover .dragArea
+{
+    color: #000000;
+    border-color: #0e84fd;
+    opacity: 1;
+    z-index: 1000;
+}
+.preview{
+    display: flex;
+    background-color: #cccccc;
+    padding: 0;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+}
+.preview .preview-item{
+    padding: 10px;
+    flex: 1 0 21%;
+    text-align: center;
+}
+.preview img{
+    max-width: 100%;
+    margin: auto;
+}
+.inputText{
+    display: inline-block;
+}
+.btn-file{
+    position: relative;
+}
+.btn-file input[type=file]{
+    position: absolute;
+    display: inline-block;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    top: 0;
+    left: 0;
+}

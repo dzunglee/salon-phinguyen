@@ -1,0 +1,176 @@
+/*!
+ *   Aside style for sidebar of AdminLte
+ *	 Author: SaliproPham <sangph@suga.vn>
+ */
+$aside-bg: #2c3b41;
+$aside-text-color: #b8c7ce;
+
+.sidebar-aside {
+
+  .content-wrapper {
+    min-height: calc(100vh - (51px) * 2) !important;
+  }
+
+  .content-wrapper, .right-side {
+    margin-top: 50px;
+  }
+
+  .main-header, .main-sidebar, .left-side {
+    position: fixed;
+  }
+
+  .main-header {
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+
+  .main-sidebar {
+    width: 230px;
+    background-color: $aside-bg;
+    height: 100vh;
+
+
+
+    .sidebar {
+      width: 50px !important;
+      background-color: #222d32;
+      height: 100% !important;
+      overflow: -moz-scrollbars-none;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+
+      &::-webkit-scrollbar {
+        width: 0px !important;
+        display: none;
+      }
+
+      &, .sidebar-menu {
+        overflow: auto !important;
+      }
+
+    }
+
+    .sidebar-form, .user-panel > .info {
+      display: none !important;
+    }
+
+    .sidebar-menu {
+
+      &>li.header {
+        font-size: 0;
+      }
+
+      &>li>a {
+        margin-right: 0;
+      }
+
+      &>li>a>span, &>li>.treeview-menu {
+        display: none !important;
+        -webkit-transform: translateZ(0);
+      }
+
+      &>li>.treeview-menu {
+        height: 100% !important;
+        padding-top: 6em !important;
+      }
+
+      &>li:hover, &>li.active {
+        >a{
+          background-color: $aside-bg;
+        }
+
+        &>a>span:first-of-type, >.treeview-menu {
+          display: block !important;
+          position: fixed;
+          left: 50px;
+          top: 50px;
+          width: 180px;
+          z-index: 10;
+          background-color: $aside-bg;
+        }
+
+        &>a>span:first-of-type {
+          font-size: 1.25em;
+          padding: 1em;
+          border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        }
+
+        >.treeview-menu {
+          //padding-top: 6em;
+          //height: 100%;
+          z-index: 9;
+          margin-left: 0;
+          padding-left: 0;
+          overflow-x: hidden;
+          overflow-y: auto;
+          overflow: -moz-scrollbars-none;
+          -ms-overflow-style: none;
+
+          &::-webkit-scrollbar-track
+          {
+            background-color: transparent;
+          }
+
+          &::-webkit-scrollbar
+          {
+            width: 6px;
+            background-color: transparent;
+          }
+
+          &::-webkit-scrollbar-thumb
+          {
+            background-color: #000000;
+          }
+
+        }
+
+      }
+
+
+      &>li.active {
+        &>a>span:first-of-type {
+          z-index: 5;
+        }
+        .treeview-menu {
+          z-index: 4;
+        }
+      }
+
+
+      .treeview-menu {
+        li a {
+          padding-left: 10px;
+        }
+      }
+
+    }
+
+    a {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+  }
+
+
+  .sidebar a, .sidebar-menu .treeview-menu>li>a, .sidebar-menu>li:hover>a, .sidebar-menu>li.active>a,
+  .sidebar-menu .treeview-menu>li.active>a {
+    color: $aside-text-color;
+  }
+  .treeview-menu a:not([href="#"]) + ul{
+    display: none;
+  }
+  .sidebar-menu>li>a>i.fa-angle-left{
+    display: none;
+  }
+
+  .sidebar-menu>li.header {
+    color: #4b646f;
+    background: #1a2226;
+  }
+
+
+
+}

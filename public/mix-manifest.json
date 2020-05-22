@@ -1,0 +1,10 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/imba/js/imba.js": "/imba/js/imba.js",
+    "/imba/css/imba.css": "/imba/css/imba.css",
+    "/imba/light/css/my-css.css": "/imba/light/css/my-css.css",
+    "/imba/light/js/my-js.js": "/imba/light/js/my-js.js",
+    "/imba/dark/css/my-css.css": "/imba/dark/css/my-css.css",
+    "/imba/dark/js/my-js.js": "/imba/dark/js/my-js.js"
+}

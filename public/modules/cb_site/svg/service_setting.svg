@@ -1,0 +1,41 @@
+<svg id="service-setting" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 143.5 78.7">
+	<defs>
+		<style>
+			#service-setting .cls-1{fill:url(#linear-gradient);}
+				#service-setting .cls-2{fill:#18173b;}
+				#service-setting .cls-3{fill:url(#linear-gradient-2);}
+				#service-setting .cls-4{fill:#363795;fill-rule:evenodd;}
+				#service-setting:hover #cls-4 {
+					animation-iteration-count: 1;
+					transform-origin: 72% 50%;
+					animation-timing-function: cubic-bezier(0.42,0,0.58,0);
+					-webkit-animation: spin 1s
+				}
+				@keyframes spin {
+					0%  {-webkit-transform: rotate(0deg);}
+					100% {-webkit-transform: rotate(360deg);} 
+				}
+		</style>
+		<linearGradient id="linear-gradient" x1="68.34" y1="78.32" x2="68.34" y2="66.62" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#363795"/>
+			<stop offset="1" stop-color="#00f6ff"/>
+		</linearGradient>
+		<linearGradient id="linear-gradient-2" x1="34.82" y1="78.37" x2="34.82" y2="0.12" xlink:href="#linear-gradient"/>
+	</defs>
+	<title>Asset 2</title>
+		<g id="Layer_2" data-name="Layer 2">
+			<g id="Layer_1-2" data-name="Layer 1">
+				<circle class="cls-1" cx="68.3" cy="72.5" r="5.9"/>
+				<circle class="cls-2" cx="104.1" cy="39.4" r="9.1">
+					
+				</circle>
+				<path class="cls-3" d="M62.9,49.7h-10V.1H38L0,53.8v9.4H37.4V78.4H52.9V63.2h10a6.8,6.8,0,0,0,0-13.5Zm-43.6,0L37.4,25.1V49.7Z">
+					
+				</path>
+				<g id="Settings">
+					
+					<path id="cls-4" class="cls-4" d="M143.2,35a2.5,2.5,0,0,0-2.5-1.9,9,9,0,0,1-8.2-5.4,9,9,0,0,1,2.2-9.8A2.1,2.1,0,0,0,135,15a37.5,37.5,0,0,0-6.3-6.3,2.1,2.1,0,0,0-3,.2,8.9,8.9,0,0,1-9.8,2.2,8.7,8.7,0,0,1-5.3-8.5A2.1,2.1,0,0,0,108.7.3,37.9,37.9,0,0,0,99.8.2a2.2,2.2,0,0,0-1.9,2.3,9,9,0,0,1-5.4,8.4,9.4,9.4,0,0,1-9.8-2.2,2.1,2.1,0,0,0-2.9-.3,42.4,42.4,0,0,0-6.4,6.3,2.3,2.3,0,0,0,.2,3,8.6,8.6,0,0,1,2.2,9.8,9,9,0,0,1-8.5,5.4A2.1,2.1,0,0,0,65,34.8a33.2,33.2,0,0,0,0,8.9,2.5,2.5,0,0,0,2.5,2,8.4,8.4,0,0,1,8.1,5.4,8.7,8.7,0,0,1-2.2,9.7,2.3,2.3,0,0,0-.2,3,41,41,0,0,0,6.2,6.3,2.2,2.2,0,0,0,3-.3,9.2,9.2,0,0,1,9.8-2.2,8.8,8.8,0,0,1,5.4,8.6,2.3,2.3,0,0,0,1.9,2.3l4.5.2a32.4,32.4,0,0,0,4.4-.2,2.2,2.2,0,0,0,1.9-2.3,8.8,8.8,0,0,1,5.4-8.4,9,9,0,0,1,9.7,2.3,2.3,2.3,0,0,0,3,.2,38.2,38.2,0,0,0,6.4-6.3,2.2,2.2,0,0,0-.3-3,8.7,8.7,0,0,1,5.9-15.1h.5a2.2,2.2,0,0,0,2.3-2A44.1,44.1,0,0,0,143.2,35ZM104.1,52.6a13.2,13.2,0,1,1,13.2-13.1A13.1,13.1,0,0,1,104.1,52.6Z"/>
+				</g>
+			</g>
+		</g>
+</svg>

@@ -1,0 +1,154 @@
+variables:
+  PROJECT_DIR: 'C:\Apache24\htdocs\projects\site_combros'
+  DEV_PROJECT_DIR:  $PROJECT_DIR\testing
+  PRD_DIR: '/var/www/html/site_combros'
+  PRD_DIR_STAGING:  $PRD_DIR/staging
+  PRD_DIR_PRODUCTION:  $PRD_DIR/production
+  
+stages:
+  - prepare
+  - build
+  - deploy
+
+dev-prepare:
+  stage: prepare
+  script:
+    - del composer.lock
+    - call composer install --no-interaction
+  only:
+    refs:
+      - develop
+    variables:
+      - $CI_COMMIT_MESSAGE =~ /^dev\d+\.\d+\.\d+/
+  except:
+    - web
+  tags:
+    - deploy_s29
+
+dev-build:
+  stage: build
+  variables:
+    GIT_STRATEGY: none
+  script:
+    - if exist ".env.dev" copy /y .env.dev .env
+    - php artisan key:generate
+    - php artisan migrate
+    - php artisan db:seed
+    - php artisan module:seed CBSite
+  only:
+    refs:
+      - develop
+    variables:
+      - $CI_COMMIT_MESSAGE =~ /^dev\d+\.\d+\.\d+/
+  except:
+    - web
+  tags:
+    - deploy_s29
+    
+dev-deploy:
+  stage: deploy
+  variables:
+    GIT_STRATEGY: none
+  before_script:
+    - rmdir /s /q .git
+  script:
+    - if not exist "%DEV_PROJECT_DIR%" mkdir %DEV_PROJECT_DIR%
+    - xcopy /EHYQ %cd% %DEV_PROJECT_DIR%
+    - cd %DEV_PROJECT_DIR%
+    - php artisan storage:link
+  only:
+    refs:
+      - develop
+    variables:
+      - $CI_COMMIT_MESSAGE =~ /^dev\d+\.\d+\.\d+/
+  except:
+    - web
+  tags:
+    - deploy_s29
+    
+manual-deploy:
+  stage: deploy
+  variables:
+    GIT_STRATEGY: none
+    FTP_FOLDER: 'C:\FTP\combros_site'
+  before_script:
+    - if exist "%FTP_FOLDER%" rmdir /s /q %FTP_FOLDER%
+    - mkdir %FTP_FOLDER%
+  script:
+    - cd %DEV_PROJECT_DIR%
+    - xcopy /EHYQ %cd% %FTP_FOLDER%
+    - if exist ".env" if exist ".env.prod" rmdir /s /q .env
+    - if exist ".env.prod" copy /y .env.prod .env
+  only:
+    refs:
+      - web
+    variables:
+      - $CI_COMMIT_REF_NAME == "develop"
+
+  tags:
+    - deploy_s29
+
+############################
+#   STAGING - LINUX W3S    #
+############################
+stg-prepare:
+  stage: prepare
+  before_script:
+    - 'if [ -r .git ]; then rm -rf .git; fi'
+    - 'if [ -f .env ]; then rm -rf .env; fi'
+  script:
+    - composer install --no-interaction --no-dev
+  only:
+    - release
+  except:
+    - web
+  tags:
+    - deploy_stg
+
+stg-deploy:
+  stage: deploy
+  variables:
+    GIT_STRATEGY: none
+  before_script:
+    - 'if [ ! -w $PRD_DIR ]; then echo "$PRD_DIR should be 775."; exit 1; fi'
+  script:
+    - 'if [ ! -d $PRD_DIR_STAGING ]; then mkdir -p $PRD_DIR_STAGING ; fi'
+    - \cp -Rf . $PRD_DIR_STAGING
+    - cd $PRD_DIR_STAGING
+    - 'if [ -f .env ]; then php artisan sg:deploy; else echo "Create .env first."; fi'
+  after_script:
+    - sudo chmod -R 777 $PRD_DIR_STAGING/storage
+  only:
+    - release
+  except:
+    - web
+  tags:
+    - deploy_stg
+
+############################
+#  PRODUCTION - LINUX W3S  #
+############################
+prd-deploy:
+  stage: deploy
+  variables:
+    GIT_STRATEGY: none
+  before_script:
+    -  cd $PRD_DIR_PRODUCTION
+    -  'if [ -f .env ]; then \cp -f .env .env.tmp; fi'
+  script:
+    - pwd
+    - \cp -Rf $PRD_DIR_STAGING/. $PRD_DIR_PRODUCTION/.
+    - 'if [ -f .env ]; then php artisan sg:deploy; else echo "Create .env first."; fi'
+  after_script:
+    - 'if [ -f $PRD_DIR_PRODUCTION/.env.tmp ]; then \mv -f $PRD_DIR_PRODUCTION/.env.tmp $PRD_DIR_PRODUCTION/.env; fi'
+    - exit 0
+  only:
+    refs:
+      - tags
+    variables:
+      - $CI_COMMIT_REF_NAME =~ /^v\d+\.\d+\.\d+$/
+  except:
+    - branches
+  tags:
+    - deploy_stg
+

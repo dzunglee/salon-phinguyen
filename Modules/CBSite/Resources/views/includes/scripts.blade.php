@@ -1,0 +1,1 @@
+{!! setting('fe_footer_scripts','') !!}

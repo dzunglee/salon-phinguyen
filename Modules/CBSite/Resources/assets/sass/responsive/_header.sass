@@ -1,0 +1,295 @@
+@include responsive_992
+  #header
+    .navbar-light
+      .navbar-toggler
+        padding: 13px
+        position: relative
+        z-index: 9999
+        border: 1px solid $primary-color
+        .burger-1
+          width: 25px
+          height: 2px
+          top: 0px
+        .burger-2
+          width: 25px
+          height: 2px
+          top: 8px
+        .burger-3
+          width: 18px
+          height: 2px
+          top: 17px
+    .collapsing
+        transition: unset
+    .navbar
+      #logo
+        svg
+          max-height: 56px
+          width: 40%
+
+@include responsive_768
+  #header
+    .navbar-light
+      .navbar-toggler
+        padding: 13px
+        position: relative
+        z-index: 9999
+        border: 1px solid $primary-color
+        .burger-1
+          width: 25px
+          height: 2px
+          top: 0px
+        .burger-2
+          width: 25px
+          height: 2px
+          top: 8px
+        .burger-3
+          width: 18px
+          height: 2px
+          top: 17px
+    .collapsing
+        transition: unset
+    .navbar
+      #logo
+        svg
+          max-height: 56px
+          width: 40%
+
+@include responsive_768
+  .navbar-expand-lg
+    .navbar-collapse
+      z-index: 999
+      background: $primary-color
+      height: 100%
+      position: fixed!important
+      top: 0
+      left: 0
+      width: 100%
+      opacity: 0
+      &.show
+         opacity: 1
+      .navbar-nav
+        margin-top: 45px
+        .nav-item
+          padding-left: 70px
+          font-size: 30px
+          display: flex
+          position: relative
+          &.show
+            a
+              &::after
+                transform: rotate(-90deg)
+          .nav-link
+          .dropdown-menu
+            background-color: $primary-color!important
+            border: 1px solid $primary-color
+            position: absolute
+            margin-top: -64px
+            left: 30%
+            .dropdown-item
+              font-size: 20px
+              >div
+                padding: 10px 0
+                border-bottom: 1px solid $primary-color!important
+                &:hover
+                  background-color: unset
+                  color: #2326eb
+
+@include responsive_425
+  #header
+    .navbar-light
+      .navbar-toggler
+        padding: 13px
+        position: relative
+        z-index: 9999
+        border: 1px solid $primary-color
+        .burger-1
+          width: 25px
+          height: 2px
+          top: 0px
+        .burger-2
+          width: 25px
+          height: 2px
+          top: 8px
+        .burger-3
+          width: 18px
+          height: 2px
+          top: 17px
+    .collapsing
+        transition: unset 
+
+@include responsive_425
+  .navbar-expand-lg
+    .navbar-collapse
+      z-index: 999
+      height: 100%
+      background: $primary-color
+      position: fixed!important
+      top: 0
+      left: 0
+      width: 100%
+      opacity: 0
+      &.show
+        opacity: 1
+      .navbar-nav
+        margin-top: 45px
+        .nav-item
+          padding-left: 40px
+          font-size: 30px
+          position: relative
+          &.show
+            a
+              &::after
+                transform: rotate(-90deg)
+          .nav-link
+          .dropdown-menu
+            background-color: $primary-color!important
+            border: 1px solid $primary-color
+            position: absolute
+            top: 5px
+            left: 50%
+            .dropdown-item
+              font-size: 20px
+              padding-left: 0px
+              >div
+                padding: 10px 0
+                border-bottom: 1px solid $primary-color!important
+                &:hover
+                  background-color: unset
+                  color: #2326eb
+       
+@include responsive_375
+  #header
+    .navbar-light
+        .navbar-toggler
+            padding: 13px
+            position: relative
+            z-index: 9999
+            border: 1px solid $primary-color
+            .burger-1
+                width: 25px
+                height: 2px
+                top: 0px
+            .burger-2
+                width: 25px
+                height: 2px
+                top: 8px
+            .burger-3
+                width: 18px
+                height: 2px
+                top: 17px
+        .collapsing
+            transition: unset 
+@include responsive_375
+  .navbar-expand-lg
+    .navbar-collapse
+      z-index: 999
+      height: 100%
+      background: $primary-color
+      position: fixed!important
+      top: 0
+      left: 0
+      width: 100%
+      opacity: 0
+      &.show
+        opacity: 1
+      .navbar-nav
+        margin-top: 45px
+        .nav-item
+          padding-left: 0px
+          font-size: 25px
+          position: relative
+          &.show
+            a
+              &::after
+                transform: rotate(-90deg)
+          .nav-link
+          .dropdown-menu
+            background-color: $primary-color!important
+            border: 1px solid $primary-color
+            position: absolute
+            top: 5px
+            left: 50%
+            .dropdown-item
+              font-size: 18px
+              padding-left: 0px
+              >div
+                border-bottom: 1px solid $primary-color!important
+                &:hover
+                  background-color: unset
+                  color: #2326eb
+
+@include responsive_320
+  #header
+    .navbar-light
+      .navbar-toggler
+        padding: 13px
+        position: relative
+        z-index: 9999
+        border: 1px solid $primary-color
+        .burger-1
+          width: 25px
+          height: 2px
+          top: 0px
+        .burger-2
+          width: 25px
+          height: 2px
+          top: 8px
+        .burger-3
+          width: 18px
+          height: 2px
+          top: 17px
+    .collapsing
+        transition: unset      
+
+@include responsive_320
+  .navbar-expand-lg
+    .navbar-collapse
+      z-index: 999
+      background: $primary-color
+      height: 100%
+      position: fixed!important
+      top: 0
+      left: 0
+      width: 100%
+      opacity: 0
+      &.show
+        opacity: 1
+      .navbar-nav
+        margin-top: 45px
+        height: 100%
+        margin-right: 0px
+        .nav-item
+          padding-left: 0px
+          font-size: 23px
+          position: relative
+          &.show
+            a
+              &::after
+                transform: rotate(-90deg)
+          .nav-link
+          .dropdown-menu
+            background-color: $primary-color!important
+            border: 1px solid $primary-color
+            position: absolute
+            top: 5px
+            left: 45%
+            .dropdown-item
+              font-size: 18px
+              padding-left: 0px
+              >div
+                padding: 10px 0
+                border-bottom: 1px solid $primary-color!important
+                &:hover
+                  background-color: unset
+                  color: #2326eb
+@include responsive_mobile
+  #header
+    .navbar
+      height: 80px
+      &.fixed
+        height: 80px
+      .navbar-brand
+        width: 40%
+      #logo
+        svg
+          max-height: 56px
