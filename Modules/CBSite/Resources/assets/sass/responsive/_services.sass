@@ -1,0 +1,293 @@
+@include responsive_992
+  #our-service
+    .mt-5
+      padding-top: 0px!important
+    .row-service-svg
+      margin-top: 30px
+    .service-item
+      .image-svg
+        height: 70px!important
+      .image
+        img, svg
+      .main-content
+        &:before
+        padding: 25px
+        height: auto
+        p
+          margin: 0px
+          img
+            display: none
+
+@include responsive_1024
+  #our-service
+    .mt-5
+      padding-top: 0px!important
+    .row-service-svg
+      margin-top: 30px
+    .service-item
+      .image-svg
+        height: 70px
+      .image
+        img, svg
+      .main-content
+        &:before
+        padding: 25px
+        p
+          margin: 0px
+          img
+            display: none
+
+@include responsive_768
+  #our-service
+    .mt-5
+      padding-top: 0px!important
+    .row-service-svg
+      margin-top: 30px
+    .service-item
+      .image-svg
+        height: 70px!important
+      .image
+        img, svg
+      .main-content
+        &:before
+        padding: 25px
+        p
+          margin: 0px
+          img
+            display: none
+
+
+@include responsive_1200
+  #our-service
+    .mt-5
+      padding-top: 0px!important
+    .row-service-svg
+      margin-top: 30px
+    .service-item
+      .image
+        img, svg
+      .main-content
+        &:before
+        padding: 25px
+        p
+          margin: 0px
+          img
+            display: none
+
+@include responsive_425
+  #our-service
+    .mt-5
+      padding-top: 0px!important
+    .row-service-svg
+      margin-top: 30px
+    .service-item
+      .image  
+        display: none
+      .main-content
+        margin-bottom: 5px
+        padding: 15px
+        overflow: hidden
+        height: auto
+        &:before
+          display: none
+        .svg-mobile
+          width: 100%
+          img
+            display: block!important
+            float: left
+            width: 24%
+            height: 90px
+            margin-right: 10px
+          h3
+            font-size: 23px
+            padding-top: 31px
+        .arrow-down
+          width: 40px
+          height: 35px
+          position: relative
+          float: right
+          margin-top: -10px
+          &:before
+            content: ""
+            display: block
+            width: 19px
+            height: 3px
+            background: #000
+            position: absolute
+            top: 20px
+            transition: transform .5s
+            right: 22px
+            border-top-left-radius: 10px
+            border-bottom-left-radius: 10px
+            transform: rotate(45deg)
+          &:after
+            content: ""
+            display: block
+            width: 19px
+            height: 3px
+            background: #000
+            position: absolute
+            top: 20px
+            transition: transform .5s
+            right: 10px
+            transform: rotate(-45deg)
+          &.active
+            &:before
+              transform: rotate(-45deg) translate(10px, 8px)
+              width: 25px
+              border-radius: 0px
+            &:after
+              transform: rotate(45deg) translate(0px, -2px)
+              width: 25px
+        .text-service
+          margin-top: 50px
+          display: none
+          &.open
+            display: block
+
+@include responsive_375
+  #our-service
+    .mt-5
+      padding-top: 0px!important
+    .row-service-svg
+      margin-top: 30px
+    .service-item
+      .image  
+        display: none
+      .main-content
+        margin-bottom: 5px
+        padding: 15px
+        height: auto
+        &:before
+          display: none
+        .svg-mobile
+          width: 100%
+          img
+            display: block !important
+            float: left
+            width: 21%
+            height: 45px
+            margin-right: 10px
+          h3
+            font-size: 18px
+            padding-top: 12px
+        .arrow-down
+          width: 22px
+          height: 35px
+          position: relative
+          float: right
+          margin-top: -10px
+          &:before
+            content: ""
+            display: block
+            width: 13px
+            height: 2px
+            background: #000
+            position: absolute
+            transition: transform .5s
+            right: 10px
+            top: 20px
+            border-top-left-radius: 10px
+            border-bottom-left-radius: 10px
+            transform: rotate(45deg)
+          &:after
+            content: ""
+            display: block
+            width: 13px
+            height: 2px
+            background: #000
+            position: absolute
+            transition: transform .5s
+            right: 2px
+            top: 20px
+            transform: rotate(-45deg)
+          &.active
+            &:before
+              transform: rotate(-45deg) translate(7px, 6px)
+              width: 20px
+              border-radius: 0px
+            &:after
+              transform: rotate(45deg) translate(0px, -1px)
+              width: 20px
+        .text-service
+          margin-top: 20px
+          display: none
+          &.open
+            display: block
+
+@include responsive_320
+  #our-service
+    .mt-5
+      padding-top: 0px!important
+      margin-top: 30px
+    .row-service-svg
+      margin-top: 30px
+    .service-item
+      .image  
+        display: none
+      .main-content
+        margin-bottom: 5px
+        padding: 15px
+        height: auto
+        &:before
+          display: none
+        .svg-mobile
+          width: 100%
+          img
+            display: block !important
+            float: left
+            width: 21%
+            height: 40px
+            margin-right: 10px
+          h3
+            font-size: 15px
+            padding-top: 12px
+        .arrow-down
+          width: 22px
+          height: 35px
+          position: relative
+          float: right
+          &:before
+            content: ""
+            display: block
+            width: 13px
+            height: 2px
+            background: #000
+            position: absolute
+            transition: transform .5s
+            right: 0px
+            border-top-left-radius: 10px
+            border-bottom-left-radius: 10px
+            transform: rotate(45deg)
+          &:after
+            content: ""
+            display: block
+            width: 13px
+            height: 2px
+            background: #000
+            position: absolute
+            transition: transform .5s
+            right: -8px
+            transform: rotate(-45deg)
+          &.active
+            &:before
+              transform: rotate(-45deg) translate(9px, 5px)
+              width: 17px
+              border-radius: 0px
+            &:after
+              transform: rotate(45deg) translate(0px, -4px)
+              width: 17px
+        .text-service
+          margin-top: 20px
+          display: none
+          &.open
+            display: block
+@include responsive_mobile
+  #our-service
+    padding-bottom: 90px
+    .row-service-svg
+      margin-top: 30px
+    .bg-service
+      margin-top: -1px
+
+      

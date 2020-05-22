@@ -1,0 +1,14 @@
+{
+    "name": "Imba",
+    "alias": "imba",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Imba\\Providers\\ImbaServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

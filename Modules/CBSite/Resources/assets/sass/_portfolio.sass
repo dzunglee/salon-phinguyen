@@ -1,0 +1,145 @@
+#portfolio1
+  color: white
+  .bg-top
+    width: 100%
+    height: 0
+    padding-bottom: 4.21875%
+    background-image: url("../img/bg-top-bold.png")
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: top
+    background-color: $primary-color-so-bold
+  .bg-bottom
+    width: 100%
+    height: 0
+    padding-bottom: 4.21875%
+    background-image: url("../img/bg-bottom-bold.png")
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: bottom
+    margin-top: -1px
+  .content-section
+    background-color: $primary-color-bold
+    padding-top: 100px
+    .item
+      position: relative
+      padding: 5px!important
+      &:hover
+        .title
+          opacity: 1
+      .title
+        //@extend .ease-animated
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        opacity: 0
+  .customScroll
+    max-height: 480px
+  .grid
+    margin-left: -5px
+    margin-right: -5px
+  .simplebar-content
+    padding-right: 20px!important
+  .simplebar-track
+    background-color: #18173B
+    width: 15px
+    border-radius: 7px
+    .simplebar-scrollbar
+      width: 15px
+      right: 0
+      &:before
+        width: 15px
+        background-image: linear-gradient(to bottom, #3047A0 , #07B7F0)
+  .leftBtn
+    width: auto
+    padding-left: 40px
+    list-style-type: none
+    li
+      position: relative
+      cursor: pointer
+      &:before
+        content: ''
+        position: absolute
+        display: inline-block
+        width: 20px
+        height: 20px
+        background: transparent
+        right: calc(100% + 20px)
+        border-radius: 50%
+        top: 5px
+      &.active
+        &:before
+          background-image: linear-gradient(to right, #3047A0, #07B7F0)
+      span
+        font-size: 22px
+        &.show-all
+          display: block
+          cursor: unset
+          .border
+            width: 50px
+            height: 1px
+            background: white
+            margin: 20px 0
+          a
+            color: white
+            &:hover
+              text-decoration: unset
+  .cover
+    width: 100%
+    height: 0
+    padding-bottom: calc(56.25% + 30px)
+    overflow: hidden
+    .wrap-items
+      position: absolute
+      width: 100%
+      height: 100%
+      &:hover
+        .has-arrow-right
+          right: 2px
+          transition: 0.5s
+        .icon-row
+          opacity: 3
+          transition: 0.5s
+      &>div
+        width: 100%
+        height: calc(100% - 30px)
+        .wrap-content
+          width: 100%
+          position: relative
+          height: 0
+          padding-bottom: calc(56.25% + 30px)
+          >div
+            position: absolute
+            width: 100%
+            height: calc(100% - 30px)
+            object-fit: cover
+            iframe, img
+              width: 100%
+              height: 100%
+    .has-arrow-right
+      position: absolute
+      right: -15px
+      margin-top: 10px
+      transition: 0.5s
+    a
+      color: white
+      .text-viewmore
+        transition: 1s
+      .icon-row
+        opacity: 0
+        transition: 0.5s
+      &:hover
+        .has-arrow-right
+          right: 2px
+          transition: 0.5s
+        .icon-row
+          opacity: 3
+          transition: 0.5s
+.description-portfolio
+  width: 100%
+  overflow: hidden
+  text-overflow: ellipsis
+  white-space: normal
+  display: -webkit-box
+  max-height: 70px

@@ -1,0 +1,13 @@
+@media (max-width: 991px) {
+    .navbar-light .custom-switch {
+        color: black;
+    }
+}
+
+.custom-switch {
+    color: white;
+}
+
+.scrolled .custom-switch {
+    color: black;
+}
