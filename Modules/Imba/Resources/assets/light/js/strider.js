@@ -207,15 +207,15 @@ $(document).ready(function () {
 
   function submitForm() {
     // Initiate Variables With Form Content
-    var name = $("#name").val();
-    var email = $("#email").val();
-    var message = $("#message").val();
+    var form = $('#contactForm');
+    var data = form.serialize();
+    var url = form.attr('action');
 
 
     $.ajax({
       type: "POST",
-      url: "php/form-process.php",
-      data: "name=" + name + "&email=" + email + "&message=" + message,
+      url: url,
+      data: data,
       success: function (text) {
         if (text === "success") {
           formSuccess();

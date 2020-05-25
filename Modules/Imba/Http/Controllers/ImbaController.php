@@ -73,6 +73,7 @@ class ImbaController extends ControllerImba
         return view('imba::index', compact('categories', 'banner', 'about', 'ourGame', 'theTeam', 'ourStudio', 'jobOpenings', 'getInTouch', 'games', 'teams', 'jobs'));
     }
 
+
     /**
      * Show the form for creating a new resource.
      * @return Response

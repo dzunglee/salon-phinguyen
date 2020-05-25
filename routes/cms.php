@@ -70,21 +70,26 @@ Route::middleware('auth:cms', 'admin.log', 'admin.activity', 'admin.permission')
     Route::get('setting', 'SettingController@index')->name('cms.setting');
     Route::post('setting', 'SettingController@save')->name('cms.setting.save');
 
-    
-    Route::get('test','TestController@test');
+
+    Route::resource('contacts', 'ContactController');
+
+
+    Route::get('test', 'TestController@test');
 
     // customizer
     Route::namespace('Customizer')->prefix('customizer')->group(function () {
-        Route::resource('menu', 'CustomizerMenuTypeController')->except(['create','show']);
+        Route::resource('menu', 'CustomizerMenuTypeController')->except(['create', 'show']);
         Route::get('menu/edit/{slug}', 'CustomizerMenuItemController@index')->name('c-menu.edit');
         Route::post('menu/edit/{slug}', 'CustomizerMenuItemController@store')->name('c-menu-item.store');
         Route::post('menu/get-menu-element-by-type', 'CustomizerMenuItemController@getMenuElementByType')->name('get-menu-element-by-type');
         Route::post('menu/save', 'CustomizerMenuItemController@saveMenuItem')->name('menu.save');
-        Route::resource('menu-item', 'CustomizerMenuItemController')->except(['index','create','show']);
+        Route::resource('menu-item', 'CustomizerMenuItemController')->except(['index', 'create', 'show']);
         Route::get('site-settings', 'SiteIdentifyController@index')->name('site-settings.index');
         Route::post('site-settings', 'SiteIdentifyController@save')->name('site-settings.save');
     });
 });
+
+Route::post('/contact', 'ContactController@contact')->name('contact');
 
 //Route::get('/', function () {
 //    view('cms.auth.admin.login');

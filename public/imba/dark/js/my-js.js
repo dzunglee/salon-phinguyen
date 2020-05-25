@@ -286,7 +286,7 @@ $(document).ready(function () {
     if (event.isDefaultPrevented()) {
       // handle the invalid form...
       formError();
-      submitMSG(false, "Did you fill in the form properly?");
+      submitMSG(false, window.messages.form_require);
     } else {
       // everything looks good!
       event.preventDefault();
@@ -296,15 +296,15 @@ $(document).ready(function () {
 
   function submitForm() {
     // Initiate Variables With Form Content
-    var name = $("#name").val();
-    var email = $("#email").val();
-    var message = $("#message").val();
+    var form = $('#contactForm');
+    var data = form.serialize();
+    var url = form.attr('action');
 
 
     $.ajax({
       type: "POST",
-      url: "php/form-process.php",
-      data: "name=" + name + "&email=" + email + "&message=" + message,
+      url: url,
+      data: data,
       success: function (text) {
         if (text === "success") {
           formSuccess();
@@ -318,7 +318,7 @@ $(document).ready(function () {
 
   function formSuccess() {
     $("#contactForm")[0].reset();
-    submitMSG(true, "Message Submitted!")
+    submitMSG(true, window.messages.message_submitted)
   }
 
   function formError() {
@@ -341,7 +341,7 @@ $(document).ready(function () {
     if (event.isDefaultPrevented()) {
       // handle the invalid form...
       signupError();
-      signupMSG(false, "Did you fill in the form properly?");
+      signupMSG(false, window.messages.form_require);
     } else {
       // everything looks good!
       event.preventDefault();
@@ -371,7 +371,7 @@ $(document).ready(function () {
 
   function signupSuccess() {
     $("#newsletter")[0].reset();
-    signupMSG(true, "Awesome! Thank you for subscribing!")
+    signupMSG(true, window.messages.thank_for_subscribe)
   }
 
   function signupError() {

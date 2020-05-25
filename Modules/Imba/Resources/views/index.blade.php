@@ -345,23 +345,25 @@
                 <div class="row">
                     <div class="col-md-6">
                         <h2 class="short-hr-left uppercase">@lang('leave-us-a-message')</h2>
-                        <form id="contactForm" data-toggle="validator">
+                        <form id="contactForm" data-toggle="validator" action="{{route('contact')}}">
+                            {{csrf_field()}}
                             <div class="form-group">
                                 <!-- Name Field -->
                                 <input type="text" id="name" placeholder="@lang('name')*" required size="35"
-                                       data-error="@lang('message') @lang('is-required')">
+                                       data-error="@lang('message') @lang('is-required')" name="name">
                                 <div class="help-block with-errors"></div>
                             </div>
                             <div class="form-group">
                                 <!-- Email Field -->
                                 <input type="email" id="email" placeholder="@lang('email')*" required size="35"
-                                       data-error="@lang('message') @lang('is-required')">
+                                       data-error="@lang('message') @lang('is-required')" name="email">
                                 <div class="help-block with-errors"></div>
                             </div>
                             <div class="form-group">
                                 <!-- Message Field -->
                                 <textarea id="message" name="message" placeholder="@lang('message')*" required
-                                          data-error="@lang('message') @lang('can-not-be-empty')"></textarea>
+                                          data-error="@lang('message') @lang('can-not-be-empty')"
+                                          maxlength="999"></textarea>
                                 <div class="help-block with-errors"></div>
                                 <!-- Submit Button -->
                                 <button type="submit" class="button uppercase">@lang('send-message')</button>

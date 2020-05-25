@@ -430,6 +430,15 @@ class MakeAdminData extends Migration
                 'ajax' => '0',
                 'uri' => 'translate',
                 'type' => 'menu',
+            ], [
+                'id' => '25',
+                'parent_id' => '0',
+                'order' => '30',
+                'title' => 'Contacts',
+                'icon' => 'fa-address-book',
+                'ajax' => '0',
+                'uri' => 'contacts',
+                'type' => 'menu',
             ]
         ];
 
