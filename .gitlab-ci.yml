@@ -33,8 +33,6 @@ dev-build:
     - if exist ".env.dev" copy /y .env.dev .env
     - php artisan key:generate
     - php artisan migrate
-    - php artisan db:seed
-    - php artisan module:seed CBSite
   only:
     refs:
       - develop
