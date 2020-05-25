@@ -1,7 +1,7 @@
 variables:
-  PROJECT_DIR: 'C:\Apache24\htdocs\projects\site_combros'
+  PROJECT_DIR: 'C:\Apache24\htdocs\projects\site_imba'
   DEV_PROJECT_DIR:  $PROJECT_DIR\testing
-  PRD_DIR: '/var/www/html/site_combros'
+  PRD_DIR: '/var/www/html/site_imba'
   PRD_DIR_STAGING:  $PRD_DIR/staging
   PRD_DIR_PRODUCTION:  $PRD_DIR/production
   
