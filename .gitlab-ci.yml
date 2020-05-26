@@ -1,6 +1,6 @@
 variables:
   DEV_ROOT: '/sources/website/site_imba'
-  DEV_DIR:  $DEV_DIR/dev
+  DEV_DIR:  $DEV_ROOT/dev
   
   PRD_DIR: '/var/www/html/site_imba'
   PRD_DIR_STAGING:  $PRD_DIR/staging
@@ -15,7 +15,7 @@ stages:
 ############################
 #   DEV - W3_CLOUD@DEV     #
 ############################
-stg-prepare:
+dev-prepare:
   stage: prepare
   before_script:
     - 'if [ -r .git ]; then rm -rf .git; fi'
@@ -34,7 +34,7 @@ stg-prepare:
   tags:
     - w3_dev
 
-stg-deploy:
+dev-deploy:
   stage: deploy
   variables:
     GIT_STRATEGY: none
