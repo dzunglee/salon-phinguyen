@@ -13,6 +13,7 @@ class ImbaController extends ControllerImba
 
     public function __construct()
     {
+        Config::set('setting', setting()->all());
         $locale = Cookie::get('locale', null);
         if (!$locale) {
             $locale = config('setting.language');
@@ -30,7 +31,6 @@ class ImbaController extends ControllerImba
         view()->share('theme', $this->theme);
         view()->share('menu', $menu);
         view()->share('socialMenu', $socialMenu);
-        Config::set('setting', setting()->all());
         $this->updateSeo(config('setting.site_title', 'Title'), config('setting.fe_site_description', 'description'), config('setting.site_cover_image', 'Title'));
     }
 
