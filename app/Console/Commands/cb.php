@@ -53,8 +53,9 @@ class cb extends Command
             $this->comment('Application key exists already');
         }
         $this->info(">> php artisan storage:link");
-        if (is_dir('public/storage')) {
-            rmdir('public/storage');
+        $storagePath = base_path('public' . DIRECTORY_SEPARATOR . 'storage');
+        if (is_dir($storagePath)) {
+            rmdir($storagePath);
             $this->comment("removed 'public/storage'");
         }
         $this->call('storage:link');
