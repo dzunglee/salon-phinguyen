@@ -1,6 +1,9 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+##3.0.0
+- added new site
+
 ##2.0.23
 - view test home page
 
