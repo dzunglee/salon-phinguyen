@@ -55,7 +55,11 @@ class cb extends Command
         $this->info(">> php artisan storage:link");
         $storagePath = base_path('public' . DIRECTORY_SEPARATOR . 'storage');
         if (is_dir($storagePath)) {
-            unlink($storagePath);
+            if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
+                rmdir($storagePath);
+            } else {
+                unlink($storagePath);
+            }
             $this->comment("removed 'public/storage'");
         }
         $this->call('storage:link');
