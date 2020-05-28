@@ -1,5 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
+##3.0.5
+- updated deploy command
 
 ##3.0.1
 - updated deploy command
