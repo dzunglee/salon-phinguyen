@@ -66,7 +66,7 @@ class cb extends Command
 
         $this->info(">> php artisan migrate --force");
         #yes "yes" | php artisan migrate
-        $this->call('migrate', ['--force' => true]);
+        $this->call('migrate:fresh', ['--force' => true]);
 
 
     }
