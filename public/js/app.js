@@ -102,6 +102,12 @@ NProgress.configure({
   parent: '#pjax-container'
 });
 $.widget.bridge('uibutton', $.ui.button);
+NProgress.start();
+
+window.onload = function (event) {
+  NProgress.done();
+};
+
 $.w3CMS = {}, $.w3CMS.sidebar = {
   init: function init() {
     var sidebar = $(".sidebar-menu");
@@ -112,7 +118,7 @@ $.w3CMS = {}, $.w3CMS.sidebar = {
   }
 }, $.w3CMS.loading = {
   init: function init() {
-    NProgress.start();
+    // NProgress.start();
     $(window).on("load pjax:end", function (e) {
       NProgress.done();
     });
