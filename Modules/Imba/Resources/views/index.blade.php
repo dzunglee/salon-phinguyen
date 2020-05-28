@@ -244,7 +244,7 @@
                 <div class="row">
                     <div class="col-md-11 tiny-margin">
                         <p>
-                            {{$ourStudio->attributes['description']}}
+                            {{$ourStudio->attributes['description'] ?? false}}
                         </p>
                     </div>
                     @foreach($ourStudio->items as $item)
@@ -284,16 +284,16 @@
                         {{$jobOpenings->attributes['description']}}
                     </p>
                 </div>
-                @foreach($jobs as $item)
+                @foreach($jobs as $key => $item)
                     <div class="col-md-4">
                         <div class="job-card">
                             <h3 class="colored">{{$item->title}}</h3>
                             <p>{{$item->description}}</p>
-                            <button class="button" data-toggle="modal" data-target="#modal1">@lang('view-detail')
+                            <button class="button" data-toggle="modal" data-target="#modal{{$key}}">@lang('view-detail')
                             </button>
                         </div>
                         <!-- Modal -->
-                        <div class="modal fade" id="modal1" tabindex="-1" role="dialog"
+                        <div class="modal fade" id="modal{{$key}}" tabindex="-1" role="dialog"
                              aria-labelledby="lead-programmer"
                              aria-hidden="true">
                             <div class="modal-dialog modal-lg" role="document">
@@ -398,7 +398,9 @@
                             </ul>
                         </div>
                         <!-- Google Map -->
-                        <div id="map-canvas"></div>
+                        <div class="gg-map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.180634840234!2d106.67343995038563!3d10.797473261719611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752929dd2103c5%3A0x13bdfd0b773a1d6c!2zMjA3IE5ndXnhu4VuIFRy4buNbmcgVHV54buDbiwgUGjGsOG7nW5nIDgsIFBow7ogTmh14bqtbiwgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1590648071599!5m2!1svi!2s" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </div>
                     </div>
                 </div>
             </div>

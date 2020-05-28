@@ -196,7 +196,7 @@ class MakeImbaData extends Migration
                     null
                 ),
                 'icon' => 'fa-facebook-official',
-                'uri' => 'https://www.facebook.com/sugagroupcorp/',
+                'uri' => 'https://www.facebook.com/ImbaGames',
                 'type' => 'link',
                 'menu_type_id' => '2',
             ],
@@ -209,7 +209,7 @@ class MakeImbaData extends Migration
                     null
                 ),
                 'icon' => 'fa-youtube-play',
-                'uri' => 'https://www.youtube.com/channel/UCpAreLM0pUvnPLTpVYFlYZQ',
+                'uri' => 'https://www.youtube.com/ImbaChannel',
                 'type' => 'link',
                 'menu_type_id' => '2',
             ]
@@ -827,95 +827,519 @@ class MakeImbaData extends Migration
 
         // seed game data
         $stars = ['4', '4.5', '5'];
-        $gameImage = ['imba/light/images/game4.jpg', 'imba/light/images/game.jpg'];
-        $game = [
-            'title' => $this->multiLanguage(
-                'AURORA AWAKENING',
-                'AURORA AWAKENING'
-            ),
-            'title_seo' => '',
-            'description' => $this->multiLanguage(
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt.',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt.'
-            ),
-            'content' => $this->multiLanguage(
-                '<h2 class="short-hr-left">A DARK WORLD</h2><p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p><img class="img-fluid" src="imba/light/images/game_large.jpg" alt="screenshot"><br><h2 class="short-hr-left">ENGAGING STORY</h2><p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p><img class="img-fluid" src="imba/light/images/game_large.jpg" alt="screenshot"><br><h2 class="short-hr-left">INTERESTING CHARACTERS</h2><p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>',
-                '<h2 class="short-hr-left">A DARK WORLD</h2><p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p><img class="img-fluid" src="imba/light/images/game_large.jpg" alt="screenshot"><br><h2 class="short-hr-left">ENGAGING STORY</h2><p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p><img class="img-fluid" src="imba/light/images/game_large.jpg" alt="screenshot"><br><h2 class="short-hr-left">INTERESTING CHARACTERS</h2><p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>'
-            ),
-            'post_type' => null,
-            'editor' => 1,
-            'author' => 1,
-            'slug' => 'get-in-touch',
-            'is_published' => 1,
-            'created_at' => date("Y-m-d h:m:s"),
-            'attributes' => [
-                [
-                    'display_name' => 'Youtube video id',
-                    'name' => str_slug('Youtube video id'),
-                    'type' => 'text',
-                    'content' => $this->multiLanguage(
-                        "DPBW_MFqeRs",
-                        "DPBW_MFqeRs"
-                    ),
-                    'entity_type' => 'App\Models\Post',
-                    'created_at' => date("Y-m-d h:m:s")
-                ],
-                [
-                    'display_name' => 'Game type',
-                    'name' => str_slug('Game type'),
-                    'type' => 'text',
-                    'content' => $this->multiLanguage(
-                        "Action RPG | PC",
-                        "Action RPG | PC"
-                    ),
-                    'entity_type' => 'App\Models\Post',
-                    'created_at' => date("Y-m-d h:m:s")
-                ],
-                [
-                    'display_name' => 'Android link',
-                    'name' => str_slug('Android link'),
-                    'type' => 'text',
-                    'content' => $this->multiLanguage(
-                        "https://play.google.com/store?hl=en",
-                        "https://play.google.com/store?hl=en"
-                    ),
-                    'entity_type' => 'App\Models\Post',
-                    'created_at' => date("Y-m-d h:m:s")
-                ],
-                [
-                    'display_name' => 'IOS link',
-                    'name' => str_slug('IOS link'),
-                    'type' => 'text',
-                    'content' => $this->multiLanguage(
-                        "https://apps.apple.com/gb/developer/apple/id284417353",
-                        "https://apps.apple.com/gb/developer/apple/id284417353"
-                    ),
-                    'entity_type' => 'App\Models\Post',
-                    'created_at' => date("Y-m-d h:m:s")
-                ],
-                [
-                    'display_name' => 'Star',
-                    'name' => str_slug('Star'),
-                    'type' => 'text',
-                    'content' => $this->multiLanguage(
-                        $stars[array_rand($stars)],
-                        $stars[array_rand($stars)]
-                    ),
-                    'entity_type' => 'App\Models\Post',
-                    'created_at' => date("Y-m-d h:m:s")
-                ],
-            ]
+        $games = [
+            [
+                'title' => $this->multiLanguage(
+                    'Overleague: Race To Glory',
+                    'Overleague: Race To Glory'
+                ),
+                'title_seo' => '',
+                'description' => $this->multiLanguage(
+                    'The ultimate combat racing game is here!',
+                    'The ultimate combat racing game is here!'
+                ),
+                'content' => $this->multiLanguage(
+                    '<h2 class="short-hr-left">Overleague: Race To Glory</h2><p>The ultimate combat racing game is here! Overleague is a one of the best racing games packed with guns, action, shooting and explosions. Challenge yourself in this fast-paced multiplayer driving games. Prove your place in the league of professional car shooting experts.</p>',
+                    '<h2 class="short-hr-left">Overleague: Race To Glory</h2><p>The ultimate combat racing game is here! Overleague is a one of the best racing games packed with guns, action, shooting and explosions. Challenge yourself in this fast-paced multiplayer driving games. Prove your place in the league of professional car shooting experts.</p>'
+                ),
+                'post_type' => null,
+                'editor' => 1,
+                'photo' => $this->multiLanguage(
+                    'imba/light/images/overleague.jpg',
+                    'imba/light/images/overleague.jpg'
+                ),
+                'author' => 1,
+                'slug' => 'get-in-touch',
+                'is_published' => 1,
+                'created_at' => date("Y-m-d h:m:s"),
+                'attributes' => [
+                    [
+                        'display_name' => 'Youtube video id',
+                        'name' => str_slug('Youtube video id'),
+                        'type' => 'text',
+                        'content' => $this->multiLanguage(
+                            "Tt0AyFwk8W0",
+                            "Tt0AyFwk8W0"
+                        ),
+                        'entity_type' => 'App\Models\Post',
+                        'created_at' => date("Y-m-d h:m:s")
+                    ],
+                    [
+                        'display_name' => 'Game type',
+                        'name' => str_slug('Game type'),
+                        'type' => 'text',
+                        'content' => $this->multiLanguage(
+                            "Action RPG | PC",
+                            "Action RPG | PC"
+                        ),
+                        'entity_type' => 'App\Models\Post',
+                        'created_at' => date("Y-m-d h:m:s")
+                    ],
+                    [
+                        'display_name' => 'Android link',
+                        'name' => str_slug('Android link'),
+                        'type' => 'text',
+                        'content' => $this->multiLanguage(
+                            "https://play.google.com/store/apps/details?id=co.imba.overleague",
+                            "https://play.google.com/store/apps/details?id=co.imba.overleague"
+                        ),
+                        'entity_type' => 'App\Models\Post',
+                        'created_at' => date("Y-m-d h:m:s")
+                    ],
+                    [
+                        'display_name' => 'IOS link',
+                        'name' => str_slug('IOS link'),
+                        'type' => 'text',
+                        'content' => $this->multiLanguage(
+                            "",
+                            ""
+                        ),
+                        'entity_type' => 'App\Models\Post',
+                        'created_at' => date("Y-m-d h:m:s")
+                    ],
+                    [
+                        'display_name' => 'Star',
+                        'name' => str_slug('Star'),
+                        'type' => 'text',
+                        'content' => $this->multiLanguage(
+                            $stars[array_rand($stars)],
+                            $stars[array_rand($stars)]
+                        ),
+                        'entity_type' => 'App\Models\Post',
+                        'created_at' => date("Y-m-d h:m:s")
+                    ],
+                ]
+            ],
+            [
+                'title' => $this->multiLanguage(
+                    'Overload: PvP Car Shooter',
+                    'Overload: PvP Car Shooter'
+                ),
+                'title_seo' => '',
+                'description' => $this->multiLanguage(
+                    'In this game, you will control a driver with unique abilities and battle against other players. The goal is to be the last driver alive.',
+                    'In this game, you will control a driver with unique abilities and battle against other players. The goal is to be the last driver alive.'
+                ),
+                'content' => $this->multiLanguage(
+                    '<h2 class="short-hr-left">Overload: PvP Car Shooter</h2><p align="justify">
+                            In the near future, the world is put into havoc by a secret assassination group called WOA (World Organization of Assassins). 
+                            Members of WOA are nature-born killer with outstanding skills and will do anything for money.<br>
+                            Rumours about WOA has spread all over the world. Some say, the top assassins live a king-liked lifestyle with all the bounty from every successful mission. 
+                            Other say, that WOA is open to everyone, only if they can pass a gruesome test.<br>
+                            That test is Overload, a competition where contestants must battle to death.<br>
+                            Many joined, only one survived.
+                            </p>',
+                    '<h2 class="short-hr-left">Overload: PvP Car Shooter</h2><p align="justify">
+                            In the near future, the world is put into havoc by a secret assassination group called WOA (World Organization of Assassins). 
+                            Members of WOA are nature-born killer with outstanding skills and will do anything for money.<br>
+                            Rumours about WOA has spread all over the world. Some say, the top assassins live a king-liked lifestyle with all the bounty from every successful mission. 
+                            Other say, that WOA is open to everyone, only if they can pass a gruesome test.<br>
+                            That test is Overload, a competition where contestants must battle to death.<br>
+                            Many joined, only one survived.
+                            </p>'
+                ),
+                'post_type' => null,
+                'editor' => 1,
+                'photo' => $this->multiLanguage(
+                    'imba/light/images/overload.png',
+                    'imba/light/images/overload.png'
+                ),
+                'author' => 1,
+                'slug' => 'get-in-touch',
+                'is_published' => 1,
+                'created_at' => date("Y-m-d h:m:s"),
+                'attributes' => [
+                    [
+                        'display_name' => 'Youtube video id',
+                        'name' => str_slug('Youtube video id'),
+                        'type' => 'text',
+                        'content' => $this->multiLanguage(
+                            "OKsqZNj0zCU",
+                            "OKsqZNj0zCU"
+                        ),
+                        'entity_type' => 'App\Models\Post',
+                        'created_at' => date("Y-m-d h:m:s")
+                    ],
+                    [
+                        'display_name' => 'Game type',
+                        'name' => str_slug('Game type'),
+                        'type' => 'text',
+                        'content' => $this->multiLanguage(
+                            "Action RPG | PC",
+                            "Action RPG | PC"
+                        ),
+                        'entity_type' => 'App\Models\Post',
+                        'created_at' => date("Y-m-d h:m:s")
+                    ],
+                    [
+                        'display_name' => 'Android link',
+                        'name' => str_slug('Android link'),
+                        'type' => 'text',
+                        'content' => $this->multiLanguage(
+                            "https://play.google.com/store/apps/details?id=com.sugastudio.overload",
+                            "https://play.google.com/store/apps/details?id=com.sugastudio.overload"
+                        ),
+                        'entity_type' => 'App\Models\Post',
+                        'created_at' => date("Y-m-d h:m:s")
+                    ],
+                    [
+                        'display_name' => 'IOS link',
+                        'name' => str_slug('IOS link'),
+                        'type' => 'text',
+                        'content' => $this->multiLanguage(
+                            "https://apps.apple.com/sg/app/id1064842104",
+                            "https://apps.apple.com/sg/app/id1064842104"
+                        ),
+                        'entity_type' => 'App\Models\Post',
+                        'created_at' => date("Y-m-d h:m:s")
+                    ],
+                    [
+                        'display_name' => 'Star',
+                        'name' => str_slug('Star'),
+                        'type' => 'text',
+                        'content' => $this->multiLanguage(
+                            $stars[array_rand($stars)],
+                            $stars[array_rand($stars)]
+                        ),
+                        'entity_type' => 'App\Models\Post',
+                        'created_at' => date("Y-m-d h:m:s")
+                    ],
+                ]
+            ],
+            [
+                'title' => $this->multiLanguage(
+                    'Auto Chess Legends',
+                    'Auto Chess Legends'
+                ),
+                'title_seo' => '',
+                'description' => $this->multiLanguage(
+                    'Auto fight across an 8x8 field chessboard using heroes as your game pieces.',
+                    'Auto fight across an 8x8 field chessboard using heroes as your game pieces.'
+                ),
+                'content' => $this->multiLanguage(
+                    '<h2 class="short-hr-left">Auto Chess Legends</h2><p>Auto Chess Legends is a round-based strategy game that pits you against seven opponents in a free-for-all race to build a powerful team that auto fights on your behalf. Your goal: Be the last person standing on 10+ minutes matches.</p>',
+                    '<h2 class="short-hr-left">Auto Chess Legends</h2><p>Auto Chess Legends is a round-based strategy game that pits you against seven opponents in a free-for-all race to build a powerful team that auto fights on your behalf. Your goal: Be the last person standing on 10+ minutes matches.</p>'
+                ),
+                'post_type' => null,
+                'editor' => 1,
+                'photo' => $this->multiLanguage(
+                    'imba/light/images/acl_home.jpg',
+                    'imba/light/images/acl_home.jpg'
+                ),
+                'author' => 1,
+                'slug' => 'get-in-touch',
+                'is_published' => 1,
+                'created_at' => date("Y-m-d h:m:s"),
+                'attributes' => [
+                    [
+                        'display_name' => 'Youtube video id',
+                        'name' => str_slug('Youtube video id'),
+                        'type' => 'text',
+                        'content' => $this->multiLanguage(
+                            "g374wO3ziaQ",
+                            "g374wO3ziaQ"
+                        ),
+                        'entity_type' => 'App\Models\Post',
+                        'created_at' => date("Y-m-d h:m:s")
+                    ],
+                    [
+                        'display_name' => 'Game type',
+                        'name' => str_slug('Game type'),
+                        'type' => 'text',
+                        'content' => $this->multiLanguage(
+                            "Action RPG | PC",
+                            "Action RPG | PC"
+                        ),
+                        'entity_type' => 'App\Models\Post',
+                        'created_at' => date("Y-m-d h:m:s")
+                    ],
+                    [
+                        'display_name' => 'Android link',
+                        'name' => str_slug('Android link'),
+                        'type' => 'text',
+                        'content' => $this->multiLanguage(
+                            "https://play.google.com/store/apps/details?id=com.imba.autochess",
+                            "https://play.google.com/store/apps/details?id=com.imba.autochess"
+                        ),
+                        'entity_type' => 'App\Models\Post',
+                        'created_at' => date("Y-m-d h:m:s")
+                    ],
+                    [
+                        'display_name' => 'IOS link',
+                        'name' => str_slug('IOS link'),
+                        'type' => 'text',
+                        'content' => $this->multiLanguage(
+                            "https://apps.apple.com/app/id1452105576",
+                            "https://apps.apple.com/app/id1452105576"
+                        ),
+                        'entity_type' => 'App\Models\Post',
+                        'created_at' => date("Y-m-d h:m:s")
+                    ],
+                    [
+                        'display_name' => 'Star',
+                        'name' => str_slug('Star'),
+                        'type' => 'text',
+                        'content' => $this->multiLanguage(
+                            $stars[array_rand($stars)],
+                            $stars[array_rand($stars)]
+                        ),
+                        'entity_type' => 'App\Models\Post',
+                        'created_at' => date("Y-m-d h:m:s")
+                    ],
+                ]
+            ],[
+                'title' => $this->multiLanguage(
+                    'Kawaii Home Design',
+                    'Kawaii Home Design'
+                ),
+                'title_seo' => '',
+                'description' => $this->multiLanguage(
+                    'Sink in this beautiful world & fun storyline to satisfy your thirst for designing the most beautiful houses ever.',
+                    'Sink in this beautiful world & fun storyline to satisfy your thirst for designing the most beautiful houses ever.'
+                ),
+                'content' => $this->multiLanguage(
+                    '<h2 class="short-hr-left">Kawaii Home Design</h2><p>Love home design & makeover? Let\'s start your business with a showroom full of kawaii furniture. In this free decorating girl games, you will choose the furniture and rearrange them accordingly to your clients\' request but still had your style. Play one of the best DIY home design games today and let your creativity shine!</p>',
+                    '<h2 class="short-hr-left">Kawaii Home Design</h2><p>Love home design & makeover? Let\'s start your business with a showroom full of kawaii furniture. In this free decorating girl games, you will choose the furniture and rearrange them accordingly to your clients\' request but still had your style. Play one of the best DIY home design games today and let your creativity shine!</p>'
+                ),
+                'post_type' => null,
+                'editor' => 1,
+                'photo' => $this->multiLanguage(
+                    'imba/light/images/khd_home.jpg',
+                    'imba/light/images/khd_home.jpg'
+                ),
+                'author' => 1,
+                'slug' => 'get-in-touch',
+                'is_published' => 1,
+                'created_at' => date("Y-m-d h:m:s"),
+                'attributes' => [
+                    [
+                        'display_name' => 'Youtube video id',
+                        'name' => str_slug('Youtube video id'),
+                        'type' => 'text',
+                        'content' => $this->multiLanguage(
+                            "n0WCToL8RkI",
+                            "n0WCToL8RkI"
+                        ),
+                        'entity_type' => 'App\Models\Post',
+                        'created_at' => date("Y-m-d h:m:s")
+                    ],
+                    [
+                        'display_name' => 'Game type',
+                        'name' => str_slug('Game type'),
+                        'type' => 'text',
+                        'content' => $this->multiLanguage(
+                            "Action RPG | PC",
+                            "Action RPG | PC"
+                        ),
+                        'entity_type' => 'App\Models\Post',
+                        'created_at' => date("Y-m-d h:m:s")
+                    ],
+                    [
+                        'display_name' => 'Android link',
+                        'name' => str_slug('Android link'),
+                        'type' => 'text',
+                        'content' => $this->multiLanguage(
+                            "https://play.google.com/store/apps/details?id=com.sugastudio.homedecor",
+                            "https://play.google.com/store/apps/details?id=com.sugastudio.homedecor"
+                        ),
+                        'entity_type' => 'App\Models\Post',
+                        'created_at' => date("Y-m-d h:m:s")
+                    ],
+                    [
+                        'display_name' => 'IOS link',
+                        'name' => str_slug('IOS link'),
+                        'type' => 'text',
+                        'content' => $this->multiLanguage(
+                            "https://apps.apple.com/us/app/kawaii-home-design/id1422581612",
+                            "https://apps.apple.com/us/app/kawaii-home-design/id1422581612"
+                        ),
+                        'entity_type' => 'App\Models\Post',
+                        'created_at' => date("Y-m-d h:m:s")
+                    ],
+                    [
+                        'display_name' => 'Star',
+                        'name' => str_slug('Star'),
+                        'type' => 'text',
+                        'content' => $this->multiLanguage(
+                            $stars[array_rand($stars)],
+                            $stars[array_rand($stars)]
+                        ),
+                        'entity_type' => 'App\Models\Post',
+                        'created_at' => date("Y-m-d h:m:s")
+                    ],
+                ]
+            ],[
+                'title' => $this->multiLanguage(
+                    'Kitten Rescuse',
+                    'Kitten Rescuse'
+                ),
+                'title_seo' => '',
+                'description' => $this->multiLanguage(
+                    'All the cats in town have been captured and tossed into bottles. Rescue them by breaking those bottles, but be careful not to let the evil dogs get them back in the end.',
+                    'All the cats in town have been captured and tossed into bottles. Rescue them by breaking those bottles, but be careful not to let the evil dogs get them back in the end.'
+                ),
+                'content' => $this->multiLanguage(
+                    '<h2 class="short-hr-left">Kitten Rescuse</h2><p></p>',
+                    '<h2 class="short-hr-left">Kitten Rescuse</h2><p></p>'
+                ),
+                'post_type' => null,
+                'editor' => 1,
+                'photo' => $this->multiLanguage(
+                    'imba/light/images/catbottle.png',
+                    'imba/light/images/catbottle.png'
+                ),
+                'author' => 1,
+                'slug' => 'get-in-touch',
+                'is_published' => 1,
+                'created_at' => date("Y-m-d h:m:s"),
+                'attributes' => [
+                    [
+                        'display_name' => 'Youtube video id',
+                        'name' => str_slug('Youtube video id'),
+                        'type' => 'text',
+                        'content' => $this->multiLanguage(
+                            "kD6xEMbeCww",
+                            "kD6xEMbeCww"
+                        ),
+                        'entity_type' => 'App\Models\Post',
+                        'created_at' => date("Y-m-d h:m:s")
+                    ],
+                    [
+                        'display_name' => 'Game type',
+                        'name' => str_slug('Game type'),
+                        'type' => 'text',
+                        'content' => $this->multiLanguage(
+                            "Action RPG | PC",
+                            "Action RPG | PC"
+                        ),
+                        'entity_type' => 'App\Models\Post',
+                        'created_at' => date("Y-m-d h:m:s")
+                    ],
+                    [
+                        'display_name' => 'Android link',
+                        'name' => str_slug('Android link'),
+                        'type' => 'text',
+                        'content' => $this->multiLanguage(
+                            "https://play.google.com/store/apps/details?id=co.imba.kittensrescue",
+                            "https://play.google.com/store/apps/details?id=co.imba.kittensrescue"
+                        ),
+                        'entity_type' => 'App\Models\Post',
+                        'created_at' => date("Y-m-d h:m:s")
+                    ],
+                    [
+                        'display_name' => 'IOS link',
+                        'name' => str_slug('IOS link'),
+                        'type' => 'text',
+                        'content' => $this->multiLanguage(
+                            "",
+                            ""
+                        ),
+                        'entity_type' => 'App\Models\Post',
+                        'created_at' => date("Y-m-d h:m:s")
+                    ],
+                    [
+                        'display_name' => 'Star',
+                        'name' => str_slug('Star'),
+                        'type' => 'text',
+                        'content' => $this->multiLanguage(
+                            $stars[array_rand($stars)],
+                            $stars[array_rand($stars)]
+                        ),
+                        'entity_type' => 'App\Models\Post',
+                        'created_at' => date("Y-m-d h:m:s")
+                    ],
+                ]
+            ],[
+                'title' => $this->multiLanguage(
+                    'I Am Hero',
+                    'I Am Hero'
+                ),
+                'title_seo' => '',
+                'description' => $this->multiLanguage(
+                    'Collect your superheroes & join the epic battles in the best Action RPG Arena!',
+                    'Collect your superheroes & join the epic battles in the best Action RPG Arena!'
+                ),
+                'content' => $this->multiLanguage(
+                    '<h2 class="short-hr-left">I Am Hero</h2><p></p>',
+                    '<h2 class="short-hr-left">I Am Hero</h2><p></p>'
+                ),
+                'post_type' => null,
+                'editor' => 1,
+                'photo' => $this->multiLanguage(
+                    'imba/light/images/iah_home.png',
+                    'imba/light/images/iah_home.png'
+                ),
+                'author' => 1,
+                'slug' => 'get-in-touch',
+                'is_published' => 1,
+                'created_at' => date("Y-m-d h:m:s"),
+                'attributes' => [
+                    [
+                        'display_name' => 'Youtube video id',
+                        'name' => str_slug('Youtube video id'),
+                        'type' => 'text',
+                        'content' => $this->multiLanguage(
+                            "",
+                            ""
+                        ),
+                        'entity_type' => 'App\Models\Post',
+                        'created_at' => date("Y-m-d h:m:s")
+                    ],
+                    [
+                        'display_name' => 'Game type',
+                        'name' => str_slug('Game type'),
+                        'type' => 'text',
+                        'content' => $this->multiLanguage(
+                            "Action RPG | PC",
+                            "Action RPG | PC"
+                        ),
+                        'entity_type' => 'App\Models\Post',
+                        'created_at' => date("Y-m-d h:m:s")
+                    ],
+                    [
+                        'display_name' => 'Android link',
+                        'name' => str_slug('Android link'),
+                        'type' => 'text',
+                        'content' => $this->multiLanguage(
+                            "",
+                            ""
+                        ),
+                        'entity_type' => 'App\Models\Post',
+                        'created_at' => date("Y-m-d h:m:s")
+                    ],
+                    [
+                        'display_name' => 'IOS link',
+                        'name' => str_slug('IOS link'),
+                        'type' => 'text',
+                        'content' => $this->multiLanguage(
+                            "",
+                            ""
+                        ),
+                        'entity_type' => 'App\Models\Post',
+                        'created_at' => date("Y-m-d h:m:s")
+                    ],
+                    [
+                        'display_name' => 'Star',
+                        'name' => str_slug('Star'),
+                        'type' => 'text',
+                        'content' => $this->multiLanguage(
+                            $stars[array_rand($stars)],
+                            $stars[array_rand($stars)]
+                        ),
+                        'entity_type' => 'App\Models\Post',
+                        'created_at' => date("Y-m-d h:m:s")
+                    ],
+                ]
+            ],
         ];
-        $attributeData = $game['attributes'];
-        unset($game['attributes']);
 
 
-        for ($i = 0; $i < 6; $i++) {
-            $game['category_id'] = random_int(1, 2);
-            $game['photo'] = $this->multiLanguage(
-                $gameImage[array_rand($gameImage)],
-                $gameImage[array_rand($gameImage)]
-            );
+        foreach ($games as $game){
+            $attributeData = $game['attributes'];
+            unset($game['attributes']);
+
+
+            $game['category_id'] = 2;
             DB::table('posts')->insert($game);
             $post = Post::all()->last();
             DB::table('post_tag')->insert(

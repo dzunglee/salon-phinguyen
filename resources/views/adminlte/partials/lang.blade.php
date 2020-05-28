@@ -13,7 +13,6 @@
 <script>
     $('#select-lang').on('change',  (function() {
         var $lang = $("option:selected",$(this));
-        let $url = $(location).attr('port');
-        $(location).attr('href', $url +'?lang='+ $lang.val())
+        $(location).attr('href', '?lang='+ $lang.val())
     }));
 </script>

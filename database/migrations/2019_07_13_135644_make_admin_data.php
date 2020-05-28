@@ -141,7 +141,7 @@ class MakeAdminData extends Migration
             ],
             [
                 'key' => 'site_title',
-                'value' => 'Imba'
+                'value' => 'Imba Games'
             ],
             [
                 'key' => 'separator',
@@ -189,11 +189,11 @@ class MakeAdminData extends Migration
             ],
             [
                 'key' => 'phone',
-                'value' => '+84 2862 515 775'
+                'value' => '+84 359 399 881'
             ],
             [
                 'key' => 'email',
-                'value' => 'office@example.com'
+                'value' => 'minhdt@imba.co'
             ],
             [
                 'key' => 'website',
@@ -201,7 +201,7 @@ class MakeAdminData extends Migration
             ],
             [
                 'key' => 'address',
-                'value' => '207 Nguyen Trong Tuyen St. Ward 8, Phu Nhuan Dist., Ho Chi Minh City Vietnam'
+                'value' => '207 Nguyen Trong Tuyen St., Ward 8, Phu Nhuan Dist., Ho Chi Minh City, Vietnam'
             ],
         ];
 
