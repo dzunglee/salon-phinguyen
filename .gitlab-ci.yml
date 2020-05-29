@@ -46,6 +46,7 @@ dev-deploy:
     - 'if [ -f .env ]; then php artisan sg:deploy; else echo "Create .env first."; fi'
   after_script:
     - sudo chmod -R 777 $DEV_DIR/storage
+    - sudo chmod -R 777 $DEV_DIR/Modules/Imba/resources/lang
   only:
     refs:
       - develop
