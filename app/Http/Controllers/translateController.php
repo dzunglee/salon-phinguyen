@@ -97,22 +97,22 @@ class translateController extends Controller
         if (!empty(\request()->lang) && in_array(\request()->lang, $this->lang)) {
             if (\request()->lang == 'vi') {
                 \Session::put('locale', \request()->lang);
-                $jsonString = file_get_contents(realpath($this->langPath . 'en.json'));
-                $jsonStringVi = file_get_contents(realpath($this->langPath . 'vi.json'));
+                $jsonString = file_get_contents($this->langPath . DIRECTORY_SEPARATOR . 'en.json');
+                $jsonStringVi = file_get_contents($this->langPath . DIRECTORY_SEPARATOR . 'vi.json');
                 $data = json_decode($jsonString, true);
                 $dataVi = json_decode($jsonStringVi, true);
                 return $this->view('pages.translate.index', compact('data', 'dataVi'));
             } else {
                 \Session::put('locale', 'en');
-                $jsonString = file_get_contents(realpath($this->langPath . 'en.json'));
+                $jsonString = file_get_contents($this->langPath . DIRECTORY_SEPARATOR . 'en.json');
                 $data = json_decode($jsonString, true);
                 $dataVi = $data;
                 return $this->view('pages.translate.index', compact('data', 'dataVi'));
             }
         } else {
             \Session::put('locale', 'vi');
-            $jsonString = file_get_contents(realpath($this->langPath . 'en.json'));
-            $jsonStringVi = file_get_contents(realpath($this->langPath . 'vi.json'));
+            $jsonString = file_get_contents($this->langPath . DIRECTORY_SEPARATOR . 'en.json');
+            $jsonStringVi = file_get_contents($this->langPath . DIRECTORY_SEPARATOR . 'vi.json');
             $data = json_decode($jsonString, true);
             $dataVi = json_decode($jsonStringVi, true);
             return $this->view('pages.translate.index', compact('data', 'dataVi'));
@@ -123,7 +123,7 @@ class translateController extends Controller
     {
         $lang = session('locale');
         if ($lang == 'vi') {
-            $jsonStringVi = file_get_contents(realpath($this->langPath . 'vi.json'));
+            $jsonStringVi = file_get_contents($this->langPath . DIRECTORY_SEPARATOR . 'vi.json');
             $dataVi = json_decode($jsonStringVi, true);
             $a = $request->translateChange;
             foreach ($a as $key => $value) {
@@ -134,17 +134,17 @@ class translateController extends Controller
                 }
             }
             $newJsonString = json_encode($dataVi);
-            file_put_contents(realpath($this->langPath . 'vi.json'), $newJsonString);
+            file_put_contents($this->langPath . DIRECTORY_SEPARATOR . 'vi.json', $newJsonString);
             return back();
         } else {
-            $jsonString = file_get_contents(realpath($this->langPath . 'en.json'));
+            $jsonString = file_get_contents($this->langPath . DIRECTORY_SEPARATOR . 'en.json');
             $data = json_decode($jsonString, true);
             $a = $request->translateChange;
             foreach ($a as $key => $value) {
                 $data[$key] = $value;
             }
             $newJsonString = json_encode($data);
-            file_put_contents(realpath($this->langPath . 'en.json'), $newJsonString);
+            file_put_contents($this->langPath . DIRECTORY_SEPARATOR . 'en.json', $newJsonString);
             return back();
         }
 
