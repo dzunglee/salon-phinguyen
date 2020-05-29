@@ -111,7 +111,13 @@ class translateController extends Controller
             }
         } else {
             \Session::put('locale', 'vi');
-            dd([$this->langPath, base_path(), app_path()]);
+            dd([
+                    $this->langPath,
+                    base_path() . DIRECTORY_SEPARATOR . 'Modules/Imba/resources/lang/',
+                    realpath(base_path() . DIRECTORY_SEPARATOR . 'Modules/Imba/resources/lang/'),
+                    base_path(),
+                    app_path()]
+            );
             $jsonString = file_get_contents($this->langPath . DIRECTORY_SEPARATOR . 'en.json');
             $jsonStringVi = file_get_contents($this->langPath . DIRECTORY_SEPARATOR . 'vi.json');
             $data = json_decode($jsonString, true);
