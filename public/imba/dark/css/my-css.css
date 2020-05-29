@@ -1462,7 +1462,7 @@ button {
   overflow: hidden;
 }
 
-a:visited {
+#contact a:visited {
   color: unset;
 }
 
