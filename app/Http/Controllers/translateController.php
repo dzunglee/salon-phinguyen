@@ -12,7 +12,7 @@ class translateController extends Controller
 
     public function __construct()
     {
-        $this->langPath = base_path('Modules/Imba/resources/lang/');
+        $this->langPath = base_path('Modules/Imba/Resources/lang/');
     }
 
     /**
