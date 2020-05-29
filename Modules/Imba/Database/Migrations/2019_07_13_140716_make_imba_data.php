@@ -347,6 +347,7 @@ class MakeImbaData extends Migration
             'author' => 1,
             'photo' => null,
             'slug' => 'about-us',
+            'can_delete' => false,
             'category_id' => null,
             'is_published' => 1,
             'created_at' => date("Y-m-d h:m:s")
@@ -449,6 +450,7 @@ class MakeImbaData extends Migration
             'author' => 1,
             'photo' => null,
             'slug' => 'our-games',
+            'can_delete' => false,
             'category_id' => null,
             'is_published' => 1,
             'created_at' => date("Y-m-d h:m:s")
@@ -525,6 +527,7 @@ class MakeImbaData extends Migration
             'editor' => 1,
             'author' => 1,
             'photo' => null,
+            'can_delete' => false,
             'slug' => 'the-team',
             'category_id' => null,
             'is_published' => 1,
@@ -604,6 +607,7 @@ class MakeImbaData extends Migration
             'photo' => null,
             'slug' => 'our-studio',
             'category_id' => null,
+            'can_delete' => false,
             'is_published' => 1,
             'created_at' => date("Y-m-d h:m:s")
         ];
@@ -693,6 +697,7 @@ class MakeImbaData extends Migration
             'editor' => 1,
             'author' => 1,
             'photo' => null,
+            'can_delete' => false,
             'slug' => 'job-openings',
             'category_id' => null,
             'is_published' => 1,
@@ -773,6 +778,7 @@ class MakeImbaData extends Migration
             'slug' => 'get-in-touch',
             'category_id' => null,
             'is_published' => 1,
+            'can_delete' => false,
             'created_at' => date("Y-m-d h:m:s")
         ];
 

@@ -91,7 +91,7 @@
             <div class="row ">
                 <div class="col-md-11 small-margin">
                     <p>
-                        {{isset($about->attributes['description'])?$about->attributes['description']:''}}
+                        {{isset($ourGame->attributes['description'])?$ourGame->attributes['description']:''}}
                     </p>
                 </div>
                 <div class="col-md-12">

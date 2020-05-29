@@ -3,6 +3,7 @@
 namespace App\Services;
 use App\Models\Post;
 use Illuminate\Support\Facades\Input;
+use mysql_xdevapi\Exception;
 use SaliproPham\LaravelMVCSP\Service;
 use App\Classes\UploadFile;
 use Illuminate\Support\Facades\Auth;
@@ -170,7 +171,9 @@ class PostService extends Service
     }
 
     public function destroy($id){
-        return Post::destroy($id);
+        if (Post::find($id)->can_delete == true)
+            return Post::destroy($id);
+        throw new \Exception('Can not delete this post','400');
     }
 
 
