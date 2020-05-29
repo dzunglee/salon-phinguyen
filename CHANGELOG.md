@@ -1,5 +1,8 @@
 # Changelog
 All notable changes to this project will be documented in this file.
+##3.0.15
+- edit view site
+
 ##3.0.5
 - updated deploy command
 
