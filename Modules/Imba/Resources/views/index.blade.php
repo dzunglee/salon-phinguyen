@@ -368,7 +368,7 @@
                                 <div class="help-block with-errors"></div>
                                 <!-- Submit Button -->
                                 <button type="submit" class="button uppercase">@lang('send-message')</button>
-                                <!-- Success Message -->contactForm
+                                <!-- Success Message -->
                                 <div id="msgSubmit" class="text-center hidden"></div>
                             </div>
                         </form>
