@@ -102,13 +102,20 @@ $(document).ready(function () {
   });
   body.on('change', '#switchLang', function (e) {
     var theme = '';
+    var switchLangTooltip = $('#switchLangTooltip');
+    var tooltipInner = $('.tooltip-inner');
 
     if ($(this).is(":checked")) {
       theme = 'dark';
+      switchLangTooltip.attr('data-original-title', switchLangTooltip.data('light'));
+      tooltipInner.text(switchLangTooltip.data('light'));
     } else {
       theme = 'light';
+      switchLangTooltip.attr('data-original-title', switchLangTooltip.data('dark'));
+      tooltipInner.text(switchLangTooltip.data('dark'));
     }
 
+    body.toggleClass('dark');
     changeTheme(theme);
     promiseAjax(url + '/change-theme', 'GET', {
       theme: theme
@@ -158,8 +165,8 @@ $(document).ready(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! E:\suga\imba-site\Modules\Imba\Resources\assets\js\app.js */"./Resources/assets/js/app.js");
-module.exports = __webpack_require__(/*! E:\suga\imba-site\Modules\Imba\Resources\assets\sass\app.sass */"./Resources/assets/sass/app.sass");
+__webpack_require__(/*! E:\xampp\htdocs\imba-site\Modules\Imba\Resources\assets\js\app.js */"./Resources/assets/js/app.js");
+module.exports = __webpack_require__(/*! E:\xampp\htdocs\imba-site\Modules\Imba\Resources\assets\sass\app.sass */"./Resources/assets/sass/app.sass");
 
 
 /***/ })

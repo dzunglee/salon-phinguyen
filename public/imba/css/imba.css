@@ -71,3 +71,25 @@
   color: unset;
 }
 
+#switchLang + i:before {
+  content: "\F186";
+}
+
+#switchLang:checked + i:before {
+  content: "\F185";
+}
+
+.for-switch-lang {
+  cursor: pointer;
+  padding: 0 5px;
+}
+
+body.dark .tooltip-inner {
+  color: white;
+  background-color: #E48632;
+}
+
+body.dark .arrow:before {
+  border-left-color: #E48632 !important;
+}
+

@@ -20,22 +20,22 @@
                                     </li>
                                 @endforeach
                             </ul>
-                            <ul class="social-links flag">
-                                <li>
-                                    <a class="switchLanguage {{app()->getLocale() == 'vi'?'active':''}}"
-                                       href="{{url()->current()}}" data-url="{{url()->current()}}"
-                                       data-locale="vi" title="Tiếng Việt">
-                                        <img src="{{asset('imba/light/images/vietnam.svg')}}">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="switchLanguage {{app()->getLocale() == 'en'?'active':''}}"
-                                       href="{{url()->current()}}" data-url="{{url()->current()}}"
-                                       data-locale="en" title="English">
-                                        <img src="{{asset('imba/light/images/usa.svg')}}">
-                                    </a>
-                                </li>
-                            </ul>
+                            {{--                            <ul class="social-links flag">--}}
+                            {{--                                <li>--}}
+                            {{--                                    <a class="switchLanguage {{app()->getLocale() == 'vi'?'active':''}}"--}}
+                            {{--                                       href="{{url()->current()}}" data-url="{{url()->current()}}"--}}
+                            {{--                                       data-locale="vi" title="Tiếng Việt">--}}
+                            {{--                                        <img src="{{asset('imba/light/images/vietnam.svg')}}">--}}
+                            {{--                                    </a>--}}
+                            {{--                                </li>--}}
+                            {{--                                <li>--}}
+                            {{--                                    <a class="switchLanguage {{app()->getLocale() == 'en'?'active':''}}"--}}
+                            {{--                                       href="{{url()->current()}}" data-url="{{url()->current()}}"--}}
+                            {{--                                       data-locale="en" title="English">--}}
+                            {{--                                        <img src="{{asset('imba/light/images/usa.svg')}}">--}}
+                            {{--                                    </a>--}}
+                            {{--                                </li>--}}
+                            {{--                            </ul>--}}
                         </div>
                     </div>
                 </div>

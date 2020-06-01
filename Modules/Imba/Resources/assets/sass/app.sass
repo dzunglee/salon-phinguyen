@@ -48,12 +48,34 @@
 #copyright
   float: none
   margin-bottom: 1rem
+
 .gg-map
   width: 100%
   height: 330px
   opacity: 0.9
   position: relative
   overflow: hidden
+
 #contact
   a:visited
     color: unset
+
+#switchLang
+  & + i:before
+    content: "\f186"
+
+  &:checked
+    & + i:before
+      content: "\f185"
+
+.for-switch-lang
+  cursor: pointer
+  padding: 0 5px
+
+body.dark
+  .tooltip-inner
+    color: white
+    background-color: #E48632
+
+  .arrow:before
+    border-left-color: #E48632 !important

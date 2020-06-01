@@ -343,9 +343,10 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 d-flex flex-column">
                         <h2 class="short-hr-left uppercase">@lang('leave-us-a-message')</h2>
-                        <form id="contactForm" data-toggle="validator" action="{{route('contact')}}">
+                        <form id="contactForm" data-toggle="validator" action="{{route('contact')}}"
+                              class="flex-grow-1">
                             {{csrf_field()}}
                             <div class="form-group">
                                 <!-- Name Field -->
@@ -367,7 +368,7 @@
                                 <div class="help-block with-errors"></div>
                                 <!-- Submit Button -->
                                 <button type="submit" class="button uppercase">@lang('send-message')</button>
-                                <!-- Success Message -->
+                                <!-- Success Message -->contactForm
                                 <div id="msgSubmit" class="text-center hidden"></div>
                             </div>
                         </form>
@@ -399,7 +400,9 @@
                         </div>
                         <!-- Google Map -->
                         <div class="gg-map">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.180634840234!2d106.67343995038563!3d10.797473261719611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752929dd2103c5%3A0x13bdfd0b773a1d6c!2zMjA3IE5ndXnhu4VuIFRy4buNbmcgVHV54buDbiwgUGjGsOG7nW5nIDgsIFBow7ogTmh14bqtbiwgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1590648071599!5m2!1svi!2s" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.180634840234!2d106.67343995038563!3d10.797473261719611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752929dd2103c5%3A0x13bdfd0b773a1d6c!2zMjA3IE5ndXnhu4VuIFRy4buNbmcgVHV54buDbiwgUGjGsOG7nW5nIDgsIFBow7ogTmh14bqtbiwgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1590648071599!5m2!1svi!2s"
+                                    width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""
+                                    aria-hidden="false" tabindex="0"></iframe>
                         </div>
                     </div>
                 </div>

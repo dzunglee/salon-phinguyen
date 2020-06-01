@@ -44,11 +44,15 @@
                         @endif
                     @endforeach
                     <li class="nav-item d-flex align-items-center justify-content-end pl-2 py-2">
-                        <div class="custom-control custom-switch" data-toggle="tooltip"
-                             title="@lang('dark-mode')">
-                            <input type="checkbox" class="custom-control-input"
-                                   id="switchLang" {{$theme == 'dark'?'checked':''}}>
-                            <label class="custom-control-label" for="switchLang"><i class="fa fa-moon-o"></i></label>
+                        <div data-toggle="tooltip" id="switchLangTooltip"
+                             title="{{$theme !== 'dark' ? __('dark-mode') : __('light-mode')}}"
+                             data-dark="@lang('dark-mode')"
+                             data-light="@lang('light-mode')">
+                            <label class="for-switch-lang" for="switchLang">
+                                <input type="checkbox" class="hide"
+                                       id="switchLang" {{$theme == 'dark'?'checked':''}}>
+                                <i class="fa"></i>
+                            </label>
                         </div>
                     </li>
                 </ul>

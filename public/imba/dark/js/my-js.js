@@ -421,11 +421,18 @@ $(document).ready(function () {
 
   body.on('change', '#switchLang', function (e) {
     let theme = '';
+    const switchLangTooltip = $('#switchLangTooltip');
+    const tooltipInner = $('.tooltip-inner');
     if ($(this).is(":checked")) {
       theme = 'dark';
+      switchLangTooltip.attr('data-original-title', switchLangTooltip.data('light'));
+      tooltipInner.text(switchLangTooltip.data('light'));
     } else {
       theme = 'light';
+      switchLangTooltip.attr('data-original-title', switchLangTooltip.data('dark'));
+      tooltipInner.text(switchLangTooltip.data('dark'));
     }
+    body.toggleClass('dark');
     changeTheme(theme);
     promiseAjax(url + '/change-theme', 'GET', {theme});
   });

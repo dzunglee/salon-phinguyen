@@ -33,7 +33,7 @@
     <link id="my-css" rel="stylesheet" href="{{ mix(sprintf('/imba/%s/css/my-css.css', $theme)) }}">
 
 </head>
-<body>
+<body class="{{$theme == 'dark' ? 'dark' : 'light'}}">
 <!-- Loading Screen -->
 <div id="loader-wrapper">
     <h1 class="loader-logo uppercase">{{$site_title}}</h1>
