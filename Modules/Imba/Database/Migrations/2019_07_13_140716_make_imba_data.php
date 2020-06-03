@@ -644,6 +644,30 @@ class MakeImbaData extends Migration
                 'created_at' => date("Y-m-d h:m:s")
             ],
             [
+                'display_name' => 'Youtube video id studio',
+                'name' => str_slug('Youtube video id studio'),
+                'type' => 'text',
+                'content' => $this->multiLanguage(
+                    "tZfknjF9VJg",
+                    "tZfknjF9VJg"
+                ),
+                'entity_id' => $post->id,
+                'entity_type' => 'App\Models\Post',
+                'created_at' => date("Y-m-d h:m:s")
+            ],
+            [
+                'display_name' => 'Photo video studio',
+                'name' => str_slug('Photo video studio'),
+                'type' => 'text',
+                'content' => $this->multiLanguage(
+                    "imba/light/images/suga-studio-banner.png",
+                    "imba/light/images/suga-studio-banner.png"
+                ),
+                'entity_id' => $post->id,
+                'entity_type' => 'App\Models\Post',
+                'created_at' => date("Y-m-d h:m:s")
+            ],
+            [
                 'display_name' => 'Description',
                 'name' => str_slug('Description'),
                 'type' => 'text',

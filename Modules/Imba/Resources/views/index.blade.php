@@ -242,11 +242,42 @@
             </div>
             <div class="grid-gallery">
                 <div class="row">
-                    <div class="col-md-11 tiny-margin">
+                    <div class="col-md-12 tiny-margin">
                         <p>
                             {{$ourStudio->attributes['description'] ?? false}}
                         </p>
                     </div>
+                    @if(isset($ourStudio->attributes['youtube-video-id-studio']))
+                    <div class="col-md-10 offset-md-1 tiny-margin mb-5">
+                        <a href="#" class="js-video-button"
+                           data-video-id='{{isset($ourStudio->attributes['youtube-video-id-studio'])?$ourStudio->attributes['youtube-video-id-studio']:''}}'
+                           data-channel="youtube">
+                            <div class="overlay">
+                                <i class="fa fa-play fa-3x"></i>
+                            </div>
+                            <img src="{{$ourStudio->attributes['photo-video-studio'] ?? 'http://i3.ytimg.com/vi/'.$ourStudio->attributes['youtube-video-id-studio'].'/maxresdefault.jpg'}}"
+                                 data-src="{{$ourStudio->attributes['photo-video-studio'] ?? 'http://i3.ytimg.com/vi/'.$ourStudio->attributes['youtube-video-id-studio'].'/maxresdefault.jpg'}}"
+                                 class="img-fluid b-lazy img-photo-studio"
+                                 alt="video thumbnail">
+                        </a>
+                    </div>
+                        @elseif(!isset($ourStudio->attributes['youtube-video-id-studio']) && isset($ourStudio->attributes['photo-video-studio']))
+                        <div class="col-md-10 offset-md-1 tiny-margin mb-5">
+                            <a href="{{$ourStudio->attributes['photo-video-studio']}}" data-lightbox="screenshots_studio">
+                                <div class="overlay">
+                                    <i class="fa fa-picture-o fa-3x"></i>
+                                </div>
+                                <picture>
+                                    <source media="(min-width: 1200px)" srcset="{{$ourStudio->attributes['photo-video-studio']}}">
+                                    <source media="(min-width: 768px)" srcset="{{$ourStudio->attributes['photo-video-studio']}}">
+                                    <img src="{{asset('imba/light/images/placeholder.jpg')}}"
+                                         data-src="{{asset('imba/light/images/placeholder.jpg')}}"
+                                         class="img-fluid b-lazy"
+                                         alt="aurora image img-photo-studio">
+                                </picture>
+                            </a>
+                        </div>
+                    @endif
                     @foreach($ourStudio->items as $item)
                         @if(isset($item[0]))
                             <div class="col-md-4 gallery-item">
