@@ -1,5 +1,9 @@
 # Changelog
 All notable changes to this project will be documented in this file.
+
+##3.0.18
+- add video our studio
+
 ##3.0.15
 - edit view site
 
