@@ -1535,3 +1535,7 @@ body.dark .arrow:before {
      object-fit: cover;
 }
 
+.border-left-none {
+  border-left: none !important;
+}
+

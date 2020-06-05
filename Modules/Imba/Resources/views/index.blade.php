@@ -248,11 +248,11 @@
                         </p>
                     </div>
                     @if(isset($ourStudio->attributes['youtube-video-id-studio']))
-                    <div class="col-md-10 offset-md-1 tiny-margin mb-5">
+                    <div class="col-md-12 tiny-margin mb-5">
                         <a href="#" class="js-video-button"
                            data-video-id='{{isset($ourStudio->attributes['youtube-video-id-studio'])?$ourStudio->attributes['youtube-video-id-studio']:''}}'
                            data-channel="youtube">
-                            <div class="overlay">
+                            <div class="overlay border-left-none">
                                 <i class="fa fa-play fa-3x"></i>
                             </div>
                             <img src="{{$ourStudio->attributes['photo-video-studio'] ?? 'http://i3.ytimg.com/vi/'.$ourStudio->attributes['youtube-video-id-studio'].'/maxresdefault.jpg'}}"
@@ -262,9 +262,9 @@
                         </a>
                     </div>
                         @elseif(!isset($ourStudio->attributes['youtube-video-id-studio']) && isset($ourStudio->attributes['photo-video-studio']))
-                        <div class="col-md-10 offset-md-1 tiny-margin mb-5">
+                        <div class="col-md-12 tiny-margin mb-5">
                             <a href="{{$ourStudio->attributes['photo-video-studio']}}" data-lightbox="screenshots_studio">
-                                <div class="overlay">
+                                <div class="overlay border-left-none">
                                     <i class="fa fa-picture-o fa-3x"></i>
                                 </div>
                                 <picture>
