@@ -1393,6 +1393,14 @@ button {
 .scrolled .custom-switch {
     color: white;
 }
+@charset "UTF-8";
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -1486,5 +1494,11 @@ body.dark .tooltip-inner {
 
 body.dark .arrow:before {
   border-left-color: #E48632 !important;
+}
+
+.img-photo-studio {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 

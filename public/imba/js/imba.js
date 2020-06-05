@@ -165,8 +165,8 @@ $(document).ready(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! E:\xampp\htdocs\imba-site\Modules\Imba\Resources\assets\js\app.js */"./Resources/assets/js/app.js");
-module.exports = __webpack_require__(/*! E:\xampp\htdocs\imba-site\Modules\Imba\Resources\assets\sass\app.sass */"./Resources/assets/sass/app.sass");
+__webpack_require__(/*! E:\suga\imba-site\Modules\Imba\Resources\assets\js\app.js */"./Resources/assets/js/app.js");
+module.exports = __webpack_require__(/*! E:\suga\imba-site\Modules\Imba\Resources\assets\sass\app.sass */"./Resources/assets/sass/app.sass");
 
 
 /***/ })
