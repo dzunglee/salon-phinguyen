@@ -1,5 +1,8 @@
 # Changelog
 All notable changes to this project will be documented in this file.
+##3.0.20
+- update script footer
+
 ##3.0.19
 - Edit width video studio
 
