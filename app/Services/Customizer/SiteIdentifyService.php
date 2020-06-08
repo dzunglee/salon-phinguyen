@@ -368,8 +368,7 @@ class SiteIdentifyService extends Service
         $data = $this->validate($this->request, $rules);
         try {
             foreach ($data as $key => $value) {
-                if (!is_null($value))
-                    \Setting::set($key, $value);
+                \Setting::set($key, $value);
             }
         } catch (\Exception $e) {
             $res->errorCode = 1;
