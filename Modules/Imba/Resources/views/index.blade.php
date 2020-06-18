@@ -61,13 +61,14 @@
             <div class="row">
                 <div class="col-md-6">
                     <p class="small-margin">
-                        {{isset($about->attributes['description'])?$about->attributes['description']:''}}
+                        {!! isset($about->attributes['description'])?$about->attributes['description']:'' !!}
                     </p>
-                    <img id="awards" src="{{isset($about->attributes['image-1'])?$about->attributes['image-1']:''}}"
+                    <img width="200px" id="awards"
+                         src="{{isset($about->attributes['image-1'])?$about->attributes['image-1']:''}}"
                          class="img-fluid" alt="awads">
                 </div>
-                <div class="col-md-6">
-                    <img id="support-image"
+                <div class="col-md-6 d-flex align-items-end justify-content-end">
+                    <img width="250px" id="support-image"
                          src="{{isset($about->attributes['image-2'])?$about->attributes['image-2']:''}}"
                          data-src="{{isset($about->attributes['image-2'])?$about->attributes['image-2']:''}}"
                          class="img-fluid b-lazy" alt="digital collage">
@@ -91,7 +92,7 @@
             <div class="row ">
                 <div class="col-md-11 small-margin">
                     <p>
-                        {{isset($ourGame->attributes['description'])?$ourGame->attributes['description']:''}}
+                        {!! isset($ourGame->attributes['description'])?$ourGame->attributes['description']:'' !!}
                     </p>
                 </div>
                 <div class="col-md-12">
@@ -248,28 +249,31 @@
                         </p>
                     </div>
                     @if(isset($ourStudio->attributes['youtube-video-id-studio']))
-                    <div class="col-md-12 tiny-margin mb-5">
-                        <a href="#" class="js-video-button"
-                           data-video-id='{{isset($ourStudio->attributes['youtube-video-id-studio'])?$ourStudio->attributes['youtube-video-id-studio']:''}}'
-                           data-channel="youtube">
-                            <div class="overlay border-left-none">
-                                <i class="fa fa-play fa-3x"></i>
-                            </div>
-                            <img src="{{$ourStudio->attributes['photo-video-studio'] ?? 'http://i3.ytimg.com/vi/'.$ourStudio->attributes['youtube-video-id-studio'].'/maxresdefault.jpg'}}"
-                                 data-src="{{$ourStudio->attributes['photo-video-studio'] ?? 'http://i3.ytimg.com/vi/'.$ourStudio->attributes['youtube-video-id-studio'].'/maxresdefault.jpg'}}"
-                                 class="img-fluid b-lazy img-photo-studio"
-                                 alt="video thumbnail">
-                        </a>
-                    </div>
-                        @elseif(!isset($ourStudio->attributes['youtube-video-id-studio']) && isset($ourStudio->attributes['photo-video-studio']))
                         <div class="col-md-12 tiny-margin mb-5">
-                            <a href="{{$ourStudio->attributes['photo-video-studio']}}" data-lightbox="screenshots_studio">
+                            <a href="#" class="js-video-button"
+                               data-video-id='{{isset($ourStudio->attributes['youtube-video-id-studio'])?$ourStudio->attributes['youtube-video-id-studio']:''}}'
+                               data-channel="youtube">
+                                <div class="overlay border-left-none">
+                                    <i class="fa fa-play fa-3x"></i>
+                                </div>
+                                <img src="{{$ourStudio->attributes['photo-video-studio'] ?? 'http://i3.ytimg.com/vi/'.$ourStudio->attributes['youtube-video-id-studio'].'/maxresdefault.jpg'}}"
+                                     data-src="{{$ourStudio->attributes['photo-video-studio'] ?? 'http://i3.ytimg.com/vi/'.$ourStudio->attributes['youtube-video-id-studio'].'/maxresdefault.jpg'}}"
+                                     class="img-fluid b-lazy img-photo-studio"
+                                     alt="video thumbnail">
+                            </a>
+                        </div>
+                    @elseif(!isset($ourStudio->attributes['youtube-video-id-studio']) && isset($ourStudio->attributes['photo-video-studio']))
+                        <div class="col-md-12 tiny-margin mb-5">
+                            <a href="{{$ourStudio->attributes['photo-video-studio']}}"
+                               data-lightbox="screenshots_studio">
                                 <div class="overlay border-left-none">
                                     <i class="fa fa-picture-o fa-3x"></i>
                                 </div>
                                 <picture>
-                                    <source media="(min-width: 1200px)" srcset="{{$ourStudio->attributes['photo-video-studio']}}">
-                                    <source media="(min-width: 768px)" srcset="{{$ourStudio->attributes['photo-video-studio']}}">
+                                    <source media="(min-width: 1200px)"
+                                            srcset="{{$ourStudio->attributes['photo-video-studio']}}">
+                                    <source media="(min-width: 768px)"
+                                            srcset="{{$ourStudio->attributes['photo-video-studio']}}">
                                     <img src="{{asset('imba/light/images/placeholder.jpg')}}"
                                          data-src="{{asset('imba/light/images/placeholder.jpg')}}"
                                          class="img-fluid b-lazy"
@@ -280,7 +284,7 @@
                     @endif
                     @foreach($ourStudio->items as $item)
                         @if(isset($item[0]))
-                            <div class="col-md-4 gallery-item">
+                            <div class="col-md-4 gallery-item mb-1">
                                 <a href="{{$item[0]}}" data-lightbox="studio_gallery">
                                     <div class="overlay gallery">
                                         <i class="fa fa-picture-o fa-3x"></i>

@@ -64,7 +64,7 @@ class cb extends Command
         }
         $this->call('storage:link');
 
-        $this->info(">> php artisan migrate --force");
+        $this->info(">> php artisan migrate:fresh");
         #yes "yes" | php artisan migrate
         $this->call('migrate', ['--force' => true]);
 

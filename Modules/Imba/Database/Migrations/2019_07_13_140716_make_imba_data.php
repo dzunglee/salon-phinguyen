@@ -389,8 +389,8 @@ class MakeImbaData extends Migration
                 'name' => str_slug('Description'),
                 'type' => 'text',
                 'content' => $this->multiLanguage(
-                    "We are a dedicated team of developers, designers, artists, programmers, and most importantly gaming enthusiasts. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae ante pharetra, molestie nunc non, interdum ipsum.",
-                    "We are a dedicated team of developers, designers, artists, programmers, and most importantly gaming enthusiasts. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae ante pharetra, molestie nunc non, interdum ipsum."
+                    "Embracing our company spirit of \"Be Special. Be Imba”, we always create the difference & creativity in each product with state-of-the-art gaming quality and unique experiences to global players.",
+                    "Embracing our company spirit of \"Be Special. Be Imba”, we always create the difference & creativity in each product with state-of-the-art gaming quality and unique experiences to global players."
                 ),
                 'entity_id' => $post->id,
                 'entity_type' => 'App\Models\Post',
@@ -492,8 +492,14 @@ class MakeImbaData extends Migration
                 'name' => str_slug('Description'),
                 'type' => 'text',
                 'content' => $this->multiLanguage(
-                    "Here at Strider games we pride ourselves in delivering rich and polished experiences that our fanbase can enjoy and immerse themselve into. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh.",
-                    "Here at Strider games we pride ourselves in delivering rich and polished experiences that our fanbase can enjoy and immerse themselve into. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh."
+                    "IMBA is dedicated to creating high-quality and enjoyable games that will stand the test of time.
+                        <br>
+We serve a wide variety of customers, no matter which segment you are in and what your needs are, IMBA is committed to providing high quality products and services that satisfy customers’ s requirements.
+",
+                    "IMBA is dedicated to creating high-quality and enjoyable games that will stand the test of time.
+                        <br>
+We serve a wide variety of customers, no matter which segment you are in and what your needs are, IMBA is committed to providing high quality products and services that satisfy customers’ s requirements.
+"
                 ),
                 'entity_id' => $post->id,
                 'entity_type' => 'App\Models\Post',
@@ -570,8 +576,8 @@ class MakeImbaData extends Migration
                 'name' => str_slug('Description'),
                 'type' => 'text',
                 'content' => $this->multiLanguage(
-                    "Our passion unites us. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt mi ut mauris varius, vitae lobortis erat ullamcorper. Pellentesque vel dolor non nisi fringilla scelerisque in non ante.",
-                    "Our passion unites us. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt mi ut mauris varius, vitae lobortis erat ullamcorper. Pellentesque vel dolor non nisi fringilla scelerisque in non ante."
+                    "Founded in 2015 by the members who are highly passionate and experienced game developers from leading game companies in Vietnam.",
+                    "Founded in 2015 by the members who are highly passionate and experienced game developers from leading game companies in Vietnam."
                 ),
                 'entity_id' => $post->id,
                 'entity_type' => 'App\Models\Post',
@@ -648,8 +654,8 @@ class MakeImbaData extends Migration
                 'name' => str_slug('Youtube video id studio'),
                 'type' => 'text',
                 'content' => $this->multiLanguage(
-                    "tZfknjF9VJg",
-                    "tZfknjF9VJg"
+                    "0aol1TqHktc",
+                    "0aol1TqHktc"
                 ),
                 'entity_id' => $post->id,
                 'entity_type' => 'App\Models\Post',
@@ -672,8 +678,8 @@ class MakeImbaData extends Migration
                 'name' => str_slug('Description'),
                 'type' => 'text',
                 'content' => $this->multiLanguage(
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt, nisl non mattis sollicitudin, risus quam tempor sem, vel interdum est libero non odio.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt, nisl non mattis sollicitudin, risus quam tempor sem, vel interdum est libero non odio."
+                    "",
+                    ""
                 ),
                 'entity_id' => $post->id,
                 'entity_type' => 'App\Models\Post',
@@ -685,19 +691,23 @@ class MakeImbaData extends Migration
             DB::table('attributes')->insert($item);
         }
 
-        for ($i = 0; $i < 6; $i++) {
+        $images = ['atc web slider.png', 'atc web slider.png', 'hero_slide_1.jpg', 'hero_slide_2.jpg', 'hero_slide_3.jpg', 'kw web slider.png', 'overlague web slider.png', 'overload web slider 01.png', 'overload web slider 02.png'];
+        foreach ($images as $i => $image) {
             DB::table('attributes')->insert([
-                'display_name' => 'Item ' . $i,
-                'name' => str_slug('Item ' . $i),
+                'display_name' => 'Item ' . ($i + 1),
+                'name' => str_slug('Item ' . ($i + 1)),
                 'type' => 'text',
                 'content' => $this->multiLanguage(
-                    'imba/light/images/studio.jpg',
-                    'imba/light/images/studio.jpg'
+                    'imba/light/images/' . $image,
+                    'imba/light/images/' . $image
                 ),
                 'entity_id' => $post->id,
                 'entity_type' => 'App\Models\Post',
                 'created_at' => date("Y-m-d h:m:s")
             ]);
+        }
+        for ($i = 0; $i < 6; $i++) {
+
         }
         //MakeJobOpeningData
         Post::where('title', 'job-openings')->forcedelete();
@@ -764,8 +774,8 @@ class MakeImbaData extends Migration
                 'name' => str_slug('Description'),
                 'type' => 'text',
                 'content' => $this->multiLanguage(
-                    "Are you a talented and motivated individual? Then we would love to have you in our team. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt, nisl non mattis sollicitudin, risus quam tempor sem, vel interdum est libero non odio.",
-                    "Are you a talented and motivated individual? Then we would love to have you in our team. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt, nisl non mattis sollicitudin, risus quam tempor sem, vel interdum est libero non odio."
+                    "Imba Games là studio sản xuất và phát hành Game Mobile hàng đầu Việt Nam, thuộc Suga Group, thành lập từ năm 2015 tại TPHCM. Chúng tôi tập trung phát triển các sản phẩm game chất lượng cao, mang tới trải nghiệm tốt nhất cho người dùng.",
+                    "Imba Games là studio sản xuất và phát hành Game Mobile hàng đầu Việt Nam, thuộc Suga Group, thành lập từ năm 2015 tại TPHCM. Chúng tôi tập trung phát triển các sản phẩm game chất lượng cao, mang tới trải nghiệm tốt nhất cho người dùng."
                 ),
                 'entity_id' => $post->id,
                 'entity_type' => 'App\Models\Post',
@@ -842,8 +852,8 @@ class MakeImbaData extends Migration
                 'name' => str_slug('Description'),
                 'type' => 'text',
                 'content' => $this->multiLanguage(
-                    "We would love to hear from you. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer viverra laoreet dolor sit amet blandit. Ut suscipit nisl ut risus volutpat malesuada.",
-                    "We would love to hear from you. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer viverra laoreet dolor sit amet blandit. Ut suscipit nisl ut risus volutpat malesuada."
+                    "",
+                    ""
                 ),
                 'entity_id' => $post->id,
                 'entity_type' => 'App\Models\Post',
@@ -1117,7 +1127,7 @@ class MakeImbaData extends Migration
                         'created_at' => date("Y-m-d h:m:s")
                     ],
                 ]
-            ],[
+            ], [
                 'title' => $this->multiLanguage(
                     'Kawaii Home Design',
                     'Kawaii Home Design'
@@ -1198,7 +1208,7 @@ class MakeImbaData extends Migration
                         'created_at' => date("Y-m-d h:m:s")
                     ],
                 ]
-            ],[
+            ], [
                 'title' => $this->multiLanguage(
                     'Kitten Rescuse',
                     'Kitten Rescuse'
@@ -1279,7 +1289,7 @@ class MakeImbaData extends Migration
                         'created_at' => date("Y-m-d h:m:s")
                     ],
                 ]
-            ],[
+            ], [
                 'title' => $this->multiLanguage(
                     'I Am Hero',
                     'I Am Hero'
@@ -1364,7 +1374,7 @@ class MakeImbaData extends Migration
         ];
 
 
-        foreach ($games as $game){
+        foreach ($games as $game) {
             $attributeData = $game['attributes'];
             unset($game['attributes']);
 
@@ -1425,17 +1435,68 @@ class MakeImbaData extends Migration
         // seed job data
         $job = [
             'title' => $this->multiLanguage(
-                'LEAD PROGRAMMER',
-                'LEAD PROGRAMMER'
+                'PROGRAMMER',
+                'PROGRAMMER'
             ),
             'title_seo' => '',
             'description' => $this->multiLanguage(
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                'Tham gia phát triển các dự án game',
+                'Tham gia phát triển các dự án game'
             ),
             'content' => $this->multiLanguage(
-                '<h3>THE IDEAL CANDIDATE:</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt, nisl non mattis sollicitudin, risus quam tempor sem, vel interdum est libero non odio.</p><ul class="skill-list"><li>C++</li><li>Dream Weaver</li><li>Unreal Engine</li><li>Blender</li><li>Scale Form</li></ul> <br><h3>REQUIREMENTS:</h3><ul><li><p>B.Sc. in Computer Science and/or Mathematics</p></li><li><p>Proficient with c++ and object-oriented programming</p></li><li><p>Development experience in the games industry a plus.</p></li><li><p>Strong communication and organizational skills</p></li><li><p>Must work well under pressure and handle multiple tasks</p></li><li><p>Passion for making GREAT games</p></li></ul> <br><h3>HOW TO APPLY:</h3><p>If you think you have what it takes to join our team you an apply here <a href="mailto:office@example.com">office@example.com</a></p>',
-                '<h3>THE IDEAL CANDIDATE:</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt, nisl non mattis sollicitudin, risus quam tempor sem, vel interdum est libero non odio.</p><ul class="skill-list"><li>C++</li><li>Dream Weaver</li><li>Unreal Engine</li><li>Blender</li><li>Scale Form</li></ul> <br><h3>REQUIREMENTS:</h3><ul><li><p>B.Sc. in Computer Science and/or Mathematics</p></li><li><p>Proficient with c++ and object-oriented programming</p></li><li><p>Development experience in the games industry a plus.</p></li><li><p>Strong communication and organizational skills</p></li><li><p>Must work well under pressure and handle multiple tasks</p></li><li><p>Passion for making GREAT games</p></li></ul> <br><h3>HOW TO APPLY:</h3><p>If you think you have what it takes to join our team you an apply here <a href="mailto:office@example.com">office@example.com</a></p>'
+                '<h3>Mô tả công việc :</h3><p>Tham gia phát triển các dự án game I Am Hero - <a href="https://playiamhero.com">https://playiamhero.com</a>
+Làm việc trực tiếp với Product Owner/Designer để phát triển các tính năng cho game
+</p><ul class="skill-list"><li>#ImbaGames</li> <li>#ImbaJobs</li> <li>#TuyenDung</li> <li>#UnityGameDeveloper</li> <li>#GameServerDeveloper</li> <li>#FullstackGameDeveloper</li></ul> <br>
+<h3>Yêu cầu:</h3>
+<ul>
+<li><p>Có kinh nghiệm làm game mobile online</p></li>
+<li><p>Có ít nhất 1 năm kinh nghiệm làm game với Unity</p></li>
+<li><p>Có khả năng làm việc teamwork</p></li>
+<li><p>Có tinh thần học hỏi, cầu tiến</p></li>
+<li><p>Tinh thần trách nhiệm cao, sẵn sàng tiếp nhận thử thách trong công việc và đảm bảo hoàn thành được công việc đúng kế hoạch.</p></li>
+</ul>
+<br><h3>Quyền lợi:</h3>
+<ul>
+<li><p> Được đề xuất, xét thưởng và xét tăng lương định kỳ 6 tháng 1 lần</p></li>
+<li><p> Được hưởng các chế độ phúc lợi và các hoạt động tập thể như Team Building, Company Trip, Year End ...</p></li>
+<li><p> Được tiếp cận những thách thức để chinh phục, nhiều cơ hội thăng tiến và phát triển.</p></li>
+<li><p> Được làm việc trong môi trường năng động, trẻ trung.</p></li>
+<li><p> Được đào tạo những kỹ năng mới phục vụ cho công việc.</p></li>
+<li><p> Mức thu nhập tương xứng với năng lực và trình độ.</p></li>
+<li><p> Được hưởng đầy đủ quyền lợi theo quy định của luật lao động và theo cơ chế của công ty.</p></li>
+</ul>
+<p>Loại hình công việc: Toàn thời gian<br>
+Địa điểm làm việc: Phú Nhuận, TPHCM<br>
+Lương: 10 -> 20tr<br>
+CV xin gửi về <a href="mailto:minhdt@suga.vn">minhdt@suga.vn</a>
+</p>',
+
+
+                '<h3>Mô tả công việc :</h3><p>Tham gia phát triển các dự án game I Am Hero - <a href="https://playiamhero.com">https://playiamhero.com</a>
+Làm việc trực tiếp với Product Owner/Designer để phát triển các tính năng cho game
+</p><ul class="skill-list"><li>#ImbaGames</li> <li>#ImbaJobs</li> <li>#TuyenDung</li> <li>#UnityGameDeveloper</li> <li>#GameServerDeveloper</li> <li>#FullstackGameDeveloper</li></ul> <br>
+<h3>Yêu cầu:</h3><ul>
+<li><p>Có kinh nghiệm làm game mobile online</p></li>
+<li><p>Có ít nhất 1 năm kinh nghiệm làm game với Unity</p></li>
+<li><p>Có khả năng làm việc teamwork</p></li>
+<li><p>Có tinh thần học hỏi, cầu tiến</p></li>
+<li><p>Tinh thần trách nhiệm cao, sẵn sàng tiếp nhận thử thách trong công việc và đảm bảo hoàn thành được công việc đúng kế hoạch.</p></li>
+</ul>
+<br><h3>Quyền lợi:</h3>
+<ul>
+<li><p> Được đề xuất, xét thưởng và xét tăng lương định kỳ 6 tháng 1 lần</p></li>
+<li><p> Được hưởng các chế độ phúc lợi và các hoạt động tập thể như Team Building, Company Trip, Year End ...</p></li>
+<li><p> Được tiếp cận những thách thức để chinh phục, nhiều cơ hội thăng tiến và phát triển.</p></li>
+<li><p> Được làm việc trong môi trường năng động, trẻ trung.</p></li>
+<li><p> Được đào tạo những kỹ năng mới phục vụ cho công việc.</p></li>
+<li><p> Mức thu nhập tương xứng với năng lực và trình độ.</p></li>
+<li><p> Được hưởng đầy đủ quyền lợi theo quy định của luật lao động và theo cơ chế của công ty.</p></li>
+</ul>
+<p>Loại hình công việc: Toàn thời gian<br>
+Địa điểm làm việc: Phú Nhuận, TPHCM<br>
+Lương: 10 -> 20tr<br>
+CV xin gửi về <a href="mailto:minhdt@suga.vn">minhdt@suga.vn</a>
+</p>'
             ),
             'post_type' => null,
             'editor' => 1,
@@ -1445,7 +1506,7 @@ class MakeImbaData extends Migration
             'created_at' => date("Y-m-d h:m:s")
         ];
 
-        for ($i = 0; $i < 3; $i++) {
+        for ($i = 0; $i < 1; $i++) {
             DB::table('posts')->insert($job);
             $post = Post::all()->last();
             DB::table('post_tag')->insert(

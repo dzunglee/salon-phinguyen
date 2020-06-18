@@ -165,7 +165,7 @@ class MakeAdminData extends Migration
             ],
             [
                 'key' => 'fe_fav',
-                'value' => '/storage/default/dark/images/favicon/favicon-16x16.png'
+                'value' => '/favicon.ico'
             ],
             [
                 'key' => 'fe_site_description',
