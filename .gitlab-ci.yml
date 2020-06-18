@@ -1,5 +1,5 @@
 variables:
-  DEV_ROOT: '/sources/website/site_imba'
+  DEV_ROOT: '/sources/allsites/site_imba'
   DEV_DIR:  $DEV_ROOT/dev
   
   PRD_DIR: '/var/www/html/site_imba'
