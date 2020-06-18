@@ -11,7 +11,7 @@ class cb extends Command
      *
      * @var string
      */
-    protected $signature = 'sg:deploy';
+    protected $signature = 'sg:deploy {env=dev}';
 
     /**
      * The console command description.
@@ -38,12 +38,14 @@ class cb extends Command
     public function handle()
     {
 
-        $this->info(">> cp .env.production .env");
-        if (file_exists('.env.production') && !file_exists('.env')) {
-            $files = copy('.env.production', '.env');
+        $env = $this->argument('env');
+        
+        $this->info(">> cp .env.".$env." .env");
+        if (file_exists('.env.' . $env) && !file_exists('.env')) {
+            $files = copy('.env.' . $env, '.env');
             $this->comment($files . ' file was copied!');
         } else {
-            $this->comment('nothing');
+            $this->comment('Keep old .env file');
         }
         #
         $this->info(">> php artisan key:generate");
@@ -66,7 +68,7 @@ class cb extends Command
 
         $this->info(">> php artisan migrate:fresh");
         #yes "yes" | php artisan migrate
-        $this->call('migrate', ['--force' => true]);
+        $this->call('migrate:fresh', ['--force' => true]);
 
 
     }
