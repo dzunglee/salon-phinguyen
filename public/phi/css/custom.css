@@ -1,0 +1,17 @@
+.logo {
+  padding: 15px 0 0; }
+  .logo a {
+    font-size: 30px;
+    color: #d3d3d3;
+    font-weight: bold;
+    line-height: 24px; }
+  .logo span {
+    color: #d3d3d3; }
+  .logo .hair-icon {
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    background: url("../images/icons-hair-white.png") no-repeat center;
+    background-size: contain; }
+
+/*# sourceMappingURL=custom.css.map */

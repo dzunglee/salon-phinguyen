@@ -20,9 +20,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="logo page-scroll"><a href="#pagetop"><img src="images/logo.png" alt="logo"></a></div>
+                    <div class="logo page-scroll"><a href="#pagetop"><i class="hair-icon"></i>Phi <span>Nguyễn</span></a></div>
                     <div class="mm-toggle-wrap">
-                        <div class="mm-toggle"> <i class="icon-menu"><img src="images/menu-icon.png" alt="Menu"></i></div>
+                        <div class="mm-toggle"> <i class="icon-menu"><img src="phi/images/menu-icon.png" alt="Menu"></i></div>
                     </div>
                     <ul class="menu">
                         <li class="page-scroll"><a href="#salon">The Salon</a></li>
