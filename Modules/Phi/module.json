@@ -1,0 +1,14 @@
+{
+    "name": "Phi",
+    "alias": "phi",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Phi\\Providers\\PhiServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
