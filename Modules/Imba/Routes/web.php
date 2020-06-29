@@ -11,7 +11,7 @@
 |
 */
 
-Route::prefix('/')->group(function () {
-    Route::get('/', 'ImbaController@index')->name('home');
-    Route::get('/change-theme', 'ImbaController@changeTheme');
-});
+//Route::prefix('/')->group(function () {
+//    Route::get('/', 'ImbaController@index')->name('home');
+//    Route::get('/change-theme', 'ImbaController@changeTheme');
+//});

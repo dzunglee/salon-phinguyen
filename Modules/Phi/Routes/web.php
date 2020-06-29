@@ -11,6 +11,6 @@
 |
 */
 
-Route::prefix('phi')->group(function() {
+Route::prefix('/')->group(function() {
     Route::get('/', 'PhiController@index');
 });

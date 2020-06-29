@@ -4,10 +4,23 @@ namespace Modules\Phi\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use Illuminate\Routing\Controller;
+use Illuminate\Support\Facades\Config;
+use Illuminate\Support\Facades\Cookie;
 
-class PhiController extends Controller
+class PhiController extends MainController
 {
+
+    public function __construct()
+    {
+        Config::set('setting', setting()->all());
+        $locale = Cookie::get('locale', null);
+        $menu = get_menu('imba-menu');
+        $socialMenu = get_menu('socials-menu');
+        view()->share('menu', $menu);
+        view()->share('socialMenu', $socialMenu);
+        $this->updateSeo(config('setting.site_title', 'Title'), config('setting.fe_site_description', 'description'), config('setting.site_cover_image', 'Title'));
+    }
+
     /**
      * Display a listing of the resource.
      * @return Response
