@@ -243,7 +243,7 @@
             <div class="row marbottom wow fadeInUp">
                 <div class="col-sm-12 col-md-7 col-lg-7 col-padright-none">
                     <div class="subtitle">
-                        <h2 class="titile col-xs-offset-1 col-sm-offset-0 col-md-offset-1 ">CUTTING</h2>
+                        <h2 class="titile col-xs-offset-1 col-sm-offset-0 col-md-offset-1 ">Cắt tóc</h2>
                     </div>
                     <img src="phi/images/cutting.jpg" class="img-responsive" alt="cutting">
                 </div>
@@ -251,14 +251,14 @@
                     <table class="table table-bordered table-striped">
                         <thead>
                         <tr>
-                            <th>CUT</th>
-                            <th>WOMEN</th>
-                            <th>MEN</th>
+                            <th>Cắt</th>
+                            <th>Nữ</th>
+                            <th>Nam</th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
-                            <td>Stylist</td>
+                            <td>Thiết kế</td>
                             <td>$80</td>
                             <td>$70</td>
                         </tr>
@@ -309,17 +309,17 @@
             <div class="row marbottom wow fadeInUp">
                 <div class="col-sm-12 col-md-7 col-lg-7 col-padleft-none displayhide">
                     <div class="subtitle">
-                        <h2 class="titile col-xs-offset-2">COLOUR</h2>
+                        <h2 class="titile col-xs-offset-2">Nhuộm</h2>
                     </div>
                     <div class="subtitle">
-                        <h2 class="color">COLOUR</h2>
+                        <h2 class="color">Nhuộm</h2>
                     </div>
-                    <img src="phi/images/color.jpg" class="img-responsive" alt="Colour"> </div>
+                    <img src="phi/images/color.jpg" class="img-responsive" alt="Nhuộm"> </div>
                 <div class="col-sm-12 col-md-5 col-lg-5 col-padright-none">
                     <table class="table table-bordered table-striped">
                         <thead>
                         <tr>
-                            <th>COLOUR</th>
+                            <th>Nhuộm</th>
                             <th>Jnr</th>
                             <th>Snr</th>
                         </tr>
@@ -375,22 +375,22 @@
                 </div>
                 <div class="col-sm-12 col-md-7 col-lg-7 col-padleft-none displayvisible">
                     <div class="subtitle">
-                        <h2 class="titile col-xs-offset-2">COLOUR</h2>
+                        <h2 class="titile col-xs-offset-2">Nhuộm</h2>
                     </div>
                     <img src="phi/images/color.jpg" class="img-responsive" alt="Colour"> </div>
             </div>
             <div class="row wow fadeInUp">
                 <div class="col-sm-12 col-md-7 col-lg-7 col-padright-none">
                     <div class="subtitle">
-                        <h2 class="titile col-xs-offset-1">STYLE</h2>
+                        <h2 class="titile col-xs-offset-1">Tạo mẫu tóc</h2>
                     </div>
                     <img src="phi/images/style.jpg" class="img-responsive" alt="Style"> </div>
                 <div class="col-sm-12 col-md-5 col-lg-5 col-padleft-none">
                     <table class="table table-bordered table-striped">
                         <thead>
                         <tr>
-                            <th>STYLE</th>
-                            <th>PRICE</th>
+                            <th>Tạo mẫu tóc</th>
+                            <th>Giá</th>
                         </tr>
                         </thead>
                         <tbody>
