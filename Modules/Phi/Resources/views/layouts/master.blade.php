@@ -67,7 +67,6 @@ The following part can be removed on Server for On Demand Loading) -->
 <script src="{{asset('phi/js/revoluation/revolution.extension.parallax.min.js')}}"></script>
 <script src="{{asset('phi/js/revoluation/revolution.extension.slideanims.min.js')}}"></script>
 <script src="{{asset('phi/js/revoluation/revoluationfunction.js')}}"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB64kJJiSynOc9ZqkNMOyl94cvsw5Z2uno"></script>
 {!! config('setting.fe_footer_scripts','') !!}
 </body>
 </html>
