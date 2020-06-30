@@ -236,7 +236,7 @@
         <div class="container">
             <div class="row marbottom">
                 <div class="col-sm-12 col-md-7 col-lg-5 pull-right wow fadeInUp">
-                    <h2>Our Services</h2>
+                    <h2>Dịch vụ của chúng tôi</h2>
                     <p class="pull-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus.</p>
                 </div>
             </div>
