@@ -560,46 +560,46 @@
             </div>
         </div>
     </section>
-    <section id="promotions" class="col-padtop wow fadeInUp">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="bg-gray">
-                        <h2 class="text-center">Promotions and Specials</h2>
-                        <div class="col-sm-12 col-lg-12">
-                            <div id="myCarousel-1" class="carousel slide" data-ride="carousel">
-                                <div class="carousel-inner" role="listbox">
-                                    <div class="item active">
-                                        <div class="img-right"><img src="phi/images/sider-mini/P-slide-1.jpg" alt="First slide" class="img-responsive"></div>
-                                        <div class="col-pad4 gbg-white">
-                                            <h4>Free hair treatment</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus viverra nec. Nullam cursus, neque non congue aliquam, mauris massa consequat sem, ut laoreet nisi erat et lectus.</p>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="img-right"><img src="phi/images/sider-mini/P-slide-2.jpg" alt="First slide" class="img-responsive"></div>
-                                        <div class="gbg-white col-pad4">
-                                            <h4>Monday Makeup</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus viverra nec. Nullam cursus, neque non congue aliquam, mauris massa consequat sem, ut laoreet nisi erat et lectus.</p>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="img-right"><img src="phi/images/sider-mini/P-slide-3.jpg" alt="First slide" class="img-responsive"></div>
-                                        <div class="gbg-white col-pad4">
-                                            <h4>Happy Hair</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus viverra nec. Nullam cursus, neque non congue aliquam, mauris massa consequat sem, ut laoreet nisi erat et lectus.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-control"> <a class="left" href="#myCarousel-1" role="button" data-slide="prev"></a> <a class="right" href="#myCarousel-1" role="button" data-slide="next"></a> </div>
-                            </div>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+{{--    <section id="promotions" class="col-padtop wow fadeInUp">--}}
+{{--        <div class="container">--}}
+{{--            <div class="row">--}}
+{{--                <div class="col-lg-12">--}}
+{{--                    <div class="bg-gray">--}}
+{{--                        <h2 class="text-center">Promotions and Specials</h2>--}}
+{{--                        <div class="col-sm-12 col-lg-12">--}}
+{{--                            <div id="myCarousel-1" class="carousel slide" data-ride="carousel">--}}
+{{--                                <div class="carousel-inner" role="listbox">--}}
+{{--                                    <div class="item active">--}}
+{{--                                        <div class="img-right"><img src="phi/images/sider-mini/P-slide-1.jpg" alt="First slide" class="img-responsive"></div>--}}
+{{--                                        <div class="col-pad4 gbg-white">--}}
+{{--                                            <h4>Free hair treatment</h4>--}}
+{{--                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus viverra nec. Nullam cursus, neque non congue aliquam, mauris massa consequat sem, ut laoreet nisi erat et lectus.</p>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="item">--}}
+{{--                                        <div class="img-right"><img src="phi/images/sider-mini/P-slide-2.jpg" alt="First slide" class="img-responsive"></div>--}}
+{{--                                        <div class="gbg-white col-pad4">--}}
+{{--                                            <h4>Monday Makeup</h4>--}}
+{{--                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus viverra nec. Nullam cursus, neque non congue aliquam, mauris massa consequat sem, ut laoreet nisi erat et lectus.</p>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="item">--}}
+{{--                                        <div class="img-right"><img src="phi/images/sider-mini/P-slide-3.jpg" alt="First slide" class="img-responsive"></div>--}}
+{{--                                        <div class="gbg-white col-pad4">--}}
+{{--                                            <h4>Happy Hair</h4>--}}
+{{--                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus viverra nec. Nullam cursus, neque non congue aliquam, mauris massa consequat sem, ut laoreet nisi erat et lectus.</p>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <div class="carousel-control"> <a class="left" href="#myCarousel-1" role="button" data-slide="prev"></a> <a class="right" href="#myCarousel-1" role="button" data-slide="next"></a> </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <div class="clearfix"></div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
 
     <section class="testimonialdiv wow fadeInUp">
         <div class="container">
