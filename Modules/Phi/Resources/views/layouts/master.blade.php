@@ -69,8 +69,5 @@ The following part can be removed on Server for On Demand Loading) -->
 <script src="{{asset('phi/js/revoluation/revoluationfunction.js')}}"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB64kJJiSynOc9ZqkNMOyl94cvsw5Z2uno"></script>
 {!! config('setting.fe_footer_scripts','') !!}
-@if(config('app.env') == 'local')
-    <script src="http://localhost:35729/livereload.js"></script>
-@endif
 </body>
 </html>

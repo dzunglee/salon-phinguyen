@@ -14,4 +14,9 @@
     background: url("../images/icons-hair-white.png") no-repeat center;
     background-size: contain; }
 
+.form-group, .textarea,
+#ContactForm input[type="submit"] {
+  width: 100%;
+  margin-right: 0; }
+
 /*# sourceMappingURL=custom.css.map */

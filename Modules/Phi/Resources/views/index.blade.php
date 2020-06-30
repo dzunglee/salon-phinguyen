@@ -36,10 +36,10 @@
                         <a class="right rev-rightarrow">Right</a>
                     </div>
                     <div class="titile-bg">
-                        <h1>The Kewl Salon</h1>
+                        <h1>Salon Phi Nguyễn</h1>
                     </div>
                     <div class="white-bg">
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus viverra nec. Nullam cursus, neque non congue aliquam, mauris massa consequat sem, ut laoreet nisi erat et lectus.Nam auctor nisi est, nec tempus lacus viverra nec. Nullam cursus, neque non congue aliquam, mauris massa consequat sem, ut laoreet nisi erat et lectus.</p>
+                        <p> Salon Phi Nguyễn nằm trên con đường 40 Lê Văn Chí. P Linh Trung. Q Thủ Đức Đây là một địa chỉ quen thuộc với những vị khách yêu cái đẹp trong suốt quãng thời gian Salon Phi Nguyễn mở cửa, hoạt động và vẫn liên tục đón tiếp những vị khách mới qua sự truyền tai nhau về tay nghề cũng như cái Tâm trong nghề của chủ Salon Phi Nguyễn.</p>
                     </div>
                 </div>
             </div>
@@ -58,9 +58,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-4 col-lg-4">
-                    <h2>Meet our Expert Stylists</h2>
+                    <h2>Chuyên gia stylist</h2>
                     <div class="ourteamd">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus viverra nec. Nullam cursus, neque non congue aliquam, mauris massa consequat sem, ut laoreet nisi erat et lectus. Nullam non neque eros. Pellentesque nec vulputate eros.</p>
+                        <p>Các stylist tài năng nhiều năm kinh nghiệm trong nghề. Với mong muốn được truyền tải, chia sẻ những tư duy áp dụng kỹ thuật cắt, uốn, nhuộm và cái tâm trong nghề cũng như trong cuộc sống..v..v chính xác cho các bạn học viên trẻ cũng như đồng nghiệp, thiết kế những mái tóc phù hợp để khách hàng trở nên xinh đẹp và tự tin hơn</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-8 col-lg-8">
@@ -436,79 +436,15 @@
             </div>
         </div>
     </section>
-    <section id="appoinment" class="col-padtop wow fadeInUp">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="appoimentbg">
-                        <div class="col-sm-12 col-md-9 col-lg-8">
-                            <h2>make an appointment</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus viverra nec.</p>
-                        </div>
-                        <div class="clearfix"></div>
-                        <div class="appfrm">
-                            <div id="SuccessMessage"></div>
-                            <div id="ErrorMessage"></div>
-                            <form name="AppointmentFrm" id="AppointmentFrm" method="post">
-                                <div class="col-sm-12 col-md-8 col-lg-7 appfrmleft">
-                                    <div class="form-group">
-                                        <label>Name</label>
-                                        <input type="text" name="AppointmentFullName" id="AppointmentFullName" class="form-control required">
-                                    </div>
-                                    <div class="form-group mt-right0">
-                                        <label>Email</label>
-                                        <input type="email" class="form-control required email" name="AppointmentEmail" id="AppointmentEmail"/>
-                                    </div>
-                                    <div class="form-group pull-left">
-                                        <label>Contact Number</label>
-                                        <input type="text" name="AppointmentContactNumber" id="AppointmentContactNumber" class="form-control required number">
-                                    </div>
-                                    <div class="form-group mt-right0">
-                                        <div class="input-append dateinput">
-                                            <label class="control-label">Date</label>
-                                            <div class="desktopdate"><input type="text" class="form-control required" name="AppointmentDate" id="datePicker" /></div>
-                                            <div class="mobiledate"><input type="date" class="form-control required" name="AppointmentMobileDate" /></div>
-                                        </div>
-                                        <div class="time">
-                                            <label>Time</label>
-                                            <select name="AppointmentTime" id="AppointmentTime">
-                                                <option selected>Select</option>
-                                                <option>11:00am</option>
-                                                <option>12:00pm</option>
-                                                <option>01:00pm</option>
-                                                <option>02:00pm</option>
-                                                <option>03:00pm</option>
-                                                <option>04:00pm</option>
-                                                <option>05:00pm</option>
-                                                <option>06:00pm</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-md-4 col-lg-5 appfrmright">
-                                    <div class="form-group textarea">
-                                        <label class="control-label">Description</label>
-                                        <textarea class="form-control" name="AppointmentMessage" rows="5" id="AppointmentMessage"></textarea>
-                                    </div>
-                                    <div class="submitbtn">
-                                        <button type="submit" class="btn btn-default" value="Submit" >SUBMIT</button>
-                                    </div>
-                                </div>
-                            </form>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <section class="excellence wow fadeInUp">
         <div id="parallax-2" class="parallax fixed fixed-desktop">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-md-5 col-lg-5 pull-right col-pad5 bg-white">
-                        <h2>Expression of Excellence</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus viverra nec. Nullam cursus, neque non congue aliquam, mauris massa consequat sem, ut laoreet nisi erat et lectus. Nullam non neque eros. Pellentesque nec vulputate eros. Integer scelerisque lorem id massa accumsan, ut faucibus ante suscipit. Nunc tincidunt et ligula vitae pharetra.</p>
+                        <h2>Cảm nhận tuyệt vời</h2>
+                        <p>
+                            Đến với salon, bạn sẽ cản nhận được sự thoáng mát, sạch sẽ, chuyên nghiệp, chu đáo, nhiệt tình.
+                        </p>
                     </div>
                 </div>
                 <div class="clearfix"></div>
@@ -519,21 +455,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Proud portfolio</h2>
+                    <h2>Portfolio</h2>
                 </div>
                 <div class="col-lg-12 filter">
                     <ul>
                         <li><a href="#" data-filter="*" class="active">All</a></li>
-                        <li><a href="#" data-filter=".Wcut">Cutting</a></li>
-                        <li><a href="#" data-filter=".coloring">Coloring</a></li>
-                        <li><a href="#" data-filter=".Hspa">Conditioning</a></li>
-                        <li><a href="#" data-filter=".Bspa">Styling</a></li>
-                        <li><a href="#" data-filter=".manucuring">Manicuring</a></li>
+                        <li><a href="#" data-filter=".Wcut">Cắt</a></li>
+                        <li><a href="#" data-filter=".coloring">Nhuộm</a></li>
+                        <li><a href="#" data-filter=".styling">Tạo kiểu</a></li>
                     </ul>
                 </div>
                 <div class="clearfix"></div>
                 <div class="portfoliodiv">
-                    <div class="col-25 coloring manucuring"> <a class="fancybox" href="phi/images/gallery/large/1.jpg" data-fancybox-group="gallery">
+                    <div class="col-25 coloring manucuring styling"> <a class="fancybox" href="phi/images/gallery/large/1.jpg" data-fancybox-group="gallery">
                             <div class="hover">
                                 <img src="phi/images/gallery/large/1.jpg" alt="Portfolio"/>
                                 <div class="mask-img">
@@ -545,7 +479,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-25 Wcut manucuring"> <a class="fancybox" href="phi/images/gallery/large/2.jpg" data-fancybox-group="gallery">
+                    <div class="col-25 Wcut"> <a class="fancybox" href="phi/images/gallery/large/2.jpg" data-fancybox-group="gallery">
                             <div class="hover">
                                 <img src="phi/images/gallery/large/2.jpg" alt="Portfolio"/>
                                 <div class="mask-img">
@@ -556,7 +490,7 @@
                                 </div>
                             </div>
                         </a> </div>
-                    <div class="col-25 coloring Hspa"> <a class="fancybox" href="phi/images/gallery/large/3.jpg" data-fancybox-group="gallery">
+                    <div class="col-25 coloring styling"> <a class="fancybox" href="phi/images/gallery/large/3.jpg" data-fancybox-group="gallery">
                             <div class="hover">
                                 <img src="phi/images/gallery/large/3.jpg" alt="Portfolio"/>
                                 <div class="mask-img">
@@ -589,7 +523,7 @@
                                 </div>
                             </div>
                         </a> </div>
-                    <div class="col-25 Bspa"> <a class="fancybox" href="phi/images/gallery/large/6.jpg" data-fancybox-group="gallery">
+                    <div class="col-25 coloring"> <a class="fancybox" href="phi/images/gallery/large/6.jpg" data-fancybox-group="gallery">
                             <div class="hover">
                                 <img src="phi/images/gallery/large/6.jpg" alt="Portfolio"/>
                                 <div class="mask-img">
@@ -600,7 +534,7 @@
                                 </div>
                             </div>
                         </a> </div>
-                    <div class="col-25 Bspa"> <a class="fancybox" href="phi/images/gallery/large/7.jpg" data-fancybox-group="gallery">
+                    <div class="col-25 coloring styling"> <a class="fancybox" href="phi/images/gallery/large/7.jpg" data-fancybox-group="gallery">
                             <div class="hover">
                                 <img src="phi/images/gallery/large/7.jpg" alt="Portfolio"/>
                                 <div class="mask-img">
@@ -666,26 +600,11 @@
             </div>
         </div>
     </section>
-    <section id="video" class="col-padtop wow fadeInUp">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7 col-lg-8">
-                    <div class="responsive-object">
-                        <iframe src="https://www.youtube.com/embed/idjnjfPbRSg?rel=0&amp;controls=0&amp;showinfo=0" allowfullscreen></iframe>
-                    </div>
-                </div>
-                <div class="col-md-5 col-lg-4 pull-right">
-                    <h2>Showreel</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus viverra nec. Nullam cursus, neque non congue aliquam, mauris massa consequat sem, ut laoreet nisi erat et lectus. Nullam non neque eros. Pellentesque nec vulputate eros. Integer scelerisque lorem id massa accumsan, ut faucibus ante suscipit. Nunc tincidunt et ligula vitae pharetra. Fusce ut lobortis augue, eget volutpat felis.</p>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <section class="testimonialdiv wow fadeInUp">
         <div class="container">
             <div class="testimonilabg">
-                <h2>Testimonials</h2>
+                <h2>Trải nghiệm khách hàng</h2>
                 <div id="myCarousel-2" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
