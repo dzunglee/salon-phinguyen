@@ -96,7 +96,7 @@ class MakePhiData extends Migration
                 'slug' => 'nhuom',
             ],
             [
-                'id' => '2',
+                'id' => '3',
                 'category_name' => 'Thiết kế',
                 'parent_id' => 0,
                 'order' => 1,
@@ -178,7 +178,7 @@ class MakePhiData extends Migration
                 'menu_type_id' => '1',
             ],
             [
-                'id' => '4',
+                'id' => '5',
                 'parent_id' => '0',
                 'order' => null,
                 'title' => $this->multiLanguage(
@@ -191,7 +191,7 @@ class MakePhiData extends Migration
                 'menu_type_id' => '1',
             ],
             [
-                'id' => '5',
+                'id' => '6',
                 'parent_id' => '0',
                 'order' => null,
                 'title' => $this->multiLanguage(
@@ -208,7 +208,7 @@ class MakePhiData extends Migration
 
         $socialMenuItems = [
             [
-                'id' => '6',
+                'id' => '7',
                 'parent_id' => '0',
                 'order' => null,
                 'title' => $this->multiLanguage(

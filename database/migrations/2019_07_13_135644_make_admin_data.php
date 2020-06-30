@@ -141,7 +141,7 @@ class MakeAdminData extends Migration
             ],
             [
                 'key' => 'site_title',
-                'value' => 'Imba Games'
+                'value' => 'Hair salon - Phi Nguyễn'
             ],
             [
                 'key' => 'separator',
