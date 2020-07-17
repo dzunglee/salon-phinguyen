@@ -236,8 +236,7 @@
         <div class="container">
             <div class="row marbottom">
                 <div class="col-sm-12 col-md-7 col-lg-5 pull-right wow fadeInUp">
-                    <h2>Dịch vụ của chúng tôi</h2>
-                    <p class="pull-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus.</p>
+                    <h2>Bảng giá Salon Phi Nguyễn</h2>
                 </div>
             </div>
             <div class="row marbottom wow fadeInUp">
@@ -252,55 +251,25 @@
                         <thead>
                         <tr>
                             <th>Cắt</th>
-                            <th>Nữ</th>
-                            <th>Nam</th>
+                            <th></th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
-                            <td>Thiết kế</td>
-                            <td>$80</td>
-                            <td>$70</td>
+                            <td>Cắt tóc Nam xã tạo kiểu</td>
+                            <td>50k</td>
                         </tr>
                         <tr>
-                            <td>Senior Stylist</td>
-                            <td>$90</td>
-                            <td>$80</td>
+                            <td>Cắt tóc pé trai xã tạo kiểu</td>
+                            <td>40k</td>
                         </tr>
                         <tr>
-                            <td>Master Stylist</td>
-                            <td>$110</td>
-                            <td>$100</td>
+                            <td>Cắt tóc Nữ xã sấy tạo kiểu</td>
+                            <td>100k - 120k</td>
                         </tr>
                         <tr>
-                            <td>Celebrity Stylist</td>
-                            <td>$POA</td>
-                            <td>$POA</td>
-                        </tr>
-                        <tr>
-                            <td>Cut</td>
-                            <td>$</td>
-                            <td>$</td>
-                        </tr>
-                        <tr>
-                            <td>Cut</td>
-                            <td>$</td>
-                            <td>$</td>
-                        </tr>
-                        <tr>
-                            <td>Cut</td>
-                            <td>$</td>
-                            <td>$</td>
-                        </tr>
-                        <tr>
-                            <td>Cut</td>
-                            <td>$</td>
-                            <td>$</td>
-                        </tr>
-                        <tr>
-                            <td>Cut</td>
-                            <td>$</td>
-                            <td>$</td>
+                            <td>Cắt tóc pé gái xã sấy tạo kiểu</td>
+                            <td>80k -100k</td>
                         </tr>
                         </tbody>
                     </table>
@@ -309,73 +278,52 @@
             <div class="row marbottom wow fadeInUp">
                 <div class="col-sm-12 col-md-7 col-lg-7 col-padleft-none displayhide">
                     <div class="subtitle">
-                        <h2 class="titile col-xs-offset-2">Nhuộm</h2>
+                        <h2 class="titile col-xs-offset-2">Gội</h2>
                     </div>
                     <div class="subtitle">
-                        <h2 class="color">Nhuộm</h2>
+                        <h2 class="color">Gội</h2>
                     </div>
-                    <img src="phi/images/color.jpg" class="img-responsive" alt="Nhuộm"> </div>
+                    <img src="phi/images/color.jpg" class="img-responsive" alt="Gội">
+                </div>
                 <div class="col-sm-12 col-md-5 col-lg-5 col-padright-none">
                     <table class="table table-bordered table-striped">
                         <thead>
                         <tr>
-                            <th>Nhuộm</th>
-                            <th>Jnr</th>
-                            <th>Snr</th>
+                            <th>Gội</th>
+                            <th></th>
                         </tr>
                         </thead>
                         <tbody>
-                        <tr>
-                            <td class="bigw">Permanent, Demi Gloss</td>
-                            <td class="smallw">from $70</td>
-                            <td>from $80</td>
-                        </tr>
-                        <tr>
-                            <td>Colour Correction</td>
-                            <td>from $90</td>
-                            <td>from $110</td>
-                        </tr>
-                        <tr>
-                            <td>Fashion Foiling</td>
-                            <td>from $75</td>
-                            <td>from $85</td>
-                        </tr>
-                        <tr>
-                            <td>Tint roots</td>
-                            <td>$75</td>
-                            <td>$85</td>
-                        </tr>
-                        <tr>
-                            <td>Tint and foils</td>
-                            <td>$110</td>
-                            <td>$120</td>
-                        </tr>
-                        <tr>
-                            <td>Half Head - Short</td>
-                            <td>from $120</td>
-                            <td>from $130</td>
-                        </tr>
-                        <tr>
-                            <td>Half Head - Long</td>
-                            <td>from $150</td>
-                            <td>from $170</td>
-                        </tr>
-                        <tr>
-                            <td>Full Head - Short</td>
-                            <td>from $160</td>
-                            <td>from $180</td>
-                        </tr>
-                        <tr>
-                            <td>Full Head - Long</td>
-                            <td>from $220</td>
-                            <td>from $250</td>
-                        </tr>
+                            <tr>
+                                <td class="bigw">Gội thường</td>
+                                <td class="smallw">50k</td>
+                            </tr>
+                            <tr>
+                                <td class="bigw">Gội cao cấp</td>
+                                <td class="smallw">80k</td>
+                            </tr>
+                            <tr>
+                                <td class="bigw">Cạo mặt</td>
+                                <td class="smallw">20k</td>
+                            </tr>
+                            <tr>
+                                <td class="bigw">Đắp mặt nạ</td>
+                                <td class="smallw">40k</td>
+                            </tr>
+                            <tr>
+                                <td class="bigw">Lột mụn</td>
+                                <td class="smallw">50k</td>
+                            </tr>
+                            <tr>
+                                <td class="bigw">Sấy tạo kiểu</td>
+                                <td class="smallw">50k</td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
                 <div class="col-sm-12 col-md-7 col-lg-7 col-padleft-none displayvisible">
                     <div class="subtitle">
-                        <h2 class="titile col-xs-offset-2">Nhuộm</h2>
+                        <h2 class="titile col-xs-offset-2">Gội</h2>
                     </div>
                     <img src="phi/images/color.jpg" class="img-responsive" alt="Colour"> </div>
             </div>
