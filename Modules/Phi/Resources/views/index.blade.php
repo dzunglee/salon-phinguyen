@@ -54,184 +54,6 @@
             </div>
         </div>
     </section>
-    <section id="ourteam" class="wow fadeInUp">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-4 col-lg-4">
-                    <h2>Chuyên gia stylist</h2>
-                    <div class="ourteamd">
-                        <p>Các stylist tài năng nhiều năm kinh nghiệm trong nghề. Với mong muốn được truyền tải, chia sẻ những tư duy áp dụng kỹ thuật cắt, uốn, nhuộm và cái tâm trong nghề cũng như trong cuộc sống..v..v chính xác cho các bạn học viên trẻ cũng như đồng nghiệp, thiết kế những mái tóc phù hợp để khách hàng trở nên xinh đẹp và tự tin hơn</p>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-8 col-lg-8">
-                    <div class="responsive">
-                        <div>
-                            <div class="third-effect">
-                                <img src="phi/images/out-tem-pic-1.jpg" class="img-responsive" alt="Our Team">
-                                <div class="mask">
-                                    <a href="#">Facebook</a>
-                                    <a href="#" class="twitter">Twitter</a>
-                                </div>
-                            </div>
-                            <div class="team">
-                                <h3>Sara Anderson</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus.</p>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="third-effect">
-                                <img src="phi/images/out-tem-pic-2.jpg" class="img-responsive" alt="Our Team">
-                                <div class="mask">
-                                    <a href="#">Facebook</a>
-                                    <a href="#" class="twitter">Twitter</a>
-                                </div>
-                            </div>
-                            <div class="team">
-                                <h3>Medona Johnson</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus.</p>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="third-effect">
-                                <img src="phi/images/out-tem-pic-3.jpg" class="img-responsive" alt="Our Team">
-                                <div class="mask">
-                                    <a href="#">Facebook</a>
-                                    <a href="#" class="twitter">Twitter</a>
-                                </div>
-                            </div>
-
-                            <div class="team">
-                                <h3>Andria Joseph</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus.</p>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="third-effect">
-                                <img src="phi/images/out-tem-pic-1.jpg" class="img-responsive" alt="Our Team">
-                                <div class="mask">
-                                    <a href="#">Facebook</a>
-                                    <a href="#" class="twitter">Twitter</a>
-                                </div>
-                            </div>
-                            <div class="team">
-                                <h3>Sara Anderson</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus.</p>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="third-effect">
-                                <img src="phi/images/out-tem-pic-2.jpg" class="img-responsive" alt="Our Team">
-                                <div class="mask">
-                                    <a href="#">Facebook</a>
-                                    <a href="#" class="twitter">Twitter</a>
-                                </div>
-                            </div>
-                            <div class="team">
-                                <h3>Medona Johnson</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus.</p>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="third-effect">
-                                <img src="phi/images/out-tem-pic-3.jpg" class="img-responsive" alt="Our Team">
-                                <div class="mask">
-                                    <a href="#">Facebook</a>
-                                    <a href="#" class="twitter">Twitter</a>
-                                </div>
-                            </div>
-
-                            <div class="team">
-                                <h3>Andria Joseph</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus.</p>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="third-effect">
-                                <img src="phi/images/out-tem-pic-1.jpg" class="img-responsive" alt="Our Team">
-                                <div class="mask">
-                                    <a href="#">Facebook</a>
-                                    <a href="#" class="twitter">Twitter</a>
-                                </div>
-                            </div>
-                            <div class="team">
-                                <h3>Sara Anderson</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus.</p>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="third-effect">
-                                <img src="phi/images/out-tem-pic-2.jpg" class="img-responsive" alt="Our Team">
-                                <div class="mask">
-                                    <a href="#">Facebook</a>
-                                    <a href="#" class="twitter">Twitter</a>
-                                </div>
-                            </div>
-                            <div class="team">
-                                <h3>Medona Johnson</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus.</p>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="third-effect">
-                                <img src="phi/images/out-tem-pic-3.jpg" class="img-responsive" alt="Our Team">
-                                <div class="mask">
-                                    <a href="#">Facebook</a>
-                                    <a href="#" class="twitter">Twitter</a>
-                                </div>
-                            </div>
-
-                            <div class="team">
-                                <h3>Andria Joseph</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus.</p>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="third-effect">
-                                <img src="phi/images/out-tem-pic-1.jpg" class="img-responsive" alt="Our Team">
-                                <div class="mask">
-                                    <a href="#">Facebook</a>
-                                    <a href="#" class="twitter">Twitter</a>
-                                </div>
-                            </div>
-                            <div class="team">
-                                <h3>Sara Anderson</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus.</p>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="third-effect">
-                                <img src="phi/images/out-tem-pic-2.jpg" class="img-responsive" alt="Our Team">
-                                <div class="mask">
-                                    <a href="#">Facebook</a>
-                                    <a href="#" class="twitter">Twitter</a>
-                                </div>
-                            </div>
-                            <div class="team">
-                                <h3>Medona Johnson</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus.</p>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="third-effect">
-                                <img src="phi/images/out-tem-pic-3.jpg" class="img-responsive" alt="Our Team">
-                                <div class="mask">
-                                    <a href="#">Facebook</a>
-                                    <a href="#" class="twitter">Twitter</a>
-                                </div>
-                            </div>
-
-                            <div class="team">
-                                <h3>Andria Joseph</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="clearfix"></div>
-    </section>
     <section id="services" class="col-padtop">
         <div class="container">
             <div class="row marbottom">
@@ -242,7 +64,7 @@
             <div class="row marbottom wow fadeInUp">
                 <div class="col-sm-12 col-md-7 col-lg-7 col-padright-none">
                     <div class="subtitle">
-                        <h2 class="titile col-xs-offset-1 col-sm-offset-0 col-md-offset-1 ">Cắt tóc</h2>
+                        <h2 class="titile col-xs-offset-1 col-sm-offset-0 col-md-offset-1 ">Cắt</h2>
                     </div>
                     <img src="phi/images/cutting.jpg" class="img-responsive" alt="cutting">
                 </div>
@@ -325,62 +147,199 @@
                     <div class="subtitle">
                         <h2 class="titile col-xs-offset-2">Gội</h2>
                     </div>
-                    <img src="phi/images/color.jpg" class="img-responsive" alt="Colour"> </div>
+                    <img src="phi/images/goi.jpg" class="img-responsive" alt="Gội"> </div>
             </div>
-            <div class="row wow fadeInUp">
+            <div class="row wow marbottom fadeInUp">
                 <div class="col-sm-12 col-md-7 col-lg-7 col-padright-none">
                     <div class="subtitle">
-                        <h2 class="titile col-xs-offset-1">Tạo mẫu tóc</h2>
+                        <h2 class="titile col-xs-offset-1">Uốn, Duỗi, Nhuộm Collagen</h2>
                     </div>
                     <img src="phi/images/style.jpg" class="img-responsive" alt="Style"> </div>
                 <div class="col-sm-12 col-md-5 col-lg-5 col-padleft-none">
                     <table class="table table-bordered table-striped">
                         <thead>
                         <tr>
-                            <th>Tạo mẫu tóc</th>
-                            <th>Giá</th>
+                            <th>Uốn Collagen</th>
+                            <th></th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
-                            <td>Blowdrying - Short</td>
-                            <td>$60</td>
+                            <td>Tóc ngắn</td>
+                            <td>350k - 400k</td>
                         </tr>
                         <tr>
-                            <td>Blowdrying - Medium</td>
-                            <td>$70</td>
+                            <td>Tóc vừa</td>
+                            <td>400k - 450k</td>
                         </tr>
                         <tr>
-                            <td>Blowdrying - Long</td>
-                            <td>$80</td>
+                            <td>Tóc dài</td>
+                            <td>450k - 500k</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-bordered table-striped mt-0">
+                        <thead>
+                        <tr>
+                            <th>Duỗi Collagen</th>
+                            <th></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Tóc ngắn</td>
+                            <td>400k - 500k</td>
                         </tr>
                         <tr>
-                            <td>Formals</td>
-                            <td>$130</td>
+                            <td>Tóc vừa</td>
+                            <td>450k - 550k</td>
                         </tr>
                         <tr>
-                            <td>Bride</td>
-                            <td>$180</td>
+                            <td>Tóc dài</td>
+                            <td>500k - 600k</td>
+                        </tr>
+                    </tbody>
+                    </table>
+                    <table class="table table-bordered table-striped mt-0">
+                        <thead>
+                        <tr>
+                            <th>Nhuộm Collagen</th>
+                            <th></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Tóc ngắn</td>
+                            <td>350k - 400k</td>
                         </tr>
                         <tr>
-                            <td>Style</td>
-                            <td>$</td>
+                            <td>Tóc vừa</td>
+                            <td>400k - 450k</td>
                         </tr>
                         <tr>
-                            <td>Style</td>
-                            <td>$</td>
+                            <td>Tóc dài</td>
+                            <td>450k - 500k</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-bordered table-striped mt-0">
+                        <thead>
+                        <tr>
+                            <th>CoBom Uốn . Duỗi . Nhuộm</th>
+                            <th></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Tóc ngắn</td>
+                            <td>800k - 900k</td>
                         </tr>
                         <tr>
-                            <td>Style</td>
-                            <td>$</td>
+                            <td>Tóc vừa</td>
+                            <td>1.000k - 1.200k</td>
                         </tr>
                         <tr>
-                            <td>Style</td>
-                            <td>$</td>
+                            <td>Tóc dài</td>
+                            <td>1.200k - 1.400k</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-bordered table-striped mt-0">
+                        <thead>
+                        <tr>
+                            <th>Nhuộm Phủ Bóng</th>
+                            <th></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Tóc ngắn</td>
+                            <td>600k - 700k</td>
+                        </tr>
+                        <tr>
+                            <td>Tóc vừa</td>
+                            <td>800k - 900k</td>
+                        </tr>
+                        <tr>
+                            <td>Tóc dài</td>
+                            <td>1.000k - 1.500k</td>
                         </tr>
                         </tbody>
                     </table>
                 </div>
+            </div>
+
+            <div class="row marbottom wow fadeInUp">
+                <div class="col-sm-12 col-md-7 col-lg-7 col-padleft-none displayhide">
+                    <div class="subtitle">
+                        <h2 class="titile col-xs-offset-2">Gội</h2>
+                    </div>
+                    <div class="subtitle">
+                        <h2 class="color">Gội</h2>
+                    </div>
+                    <img src="phi/images/color.jpg" class="img-responsive" alt="Gội">
+                </div>
+                <div class="col-sm-12 col-md-5 col-lg-5 col-padright-none">
+                    <table class="table table-bordered table-striped">
+                        <thead>
+                        <tr>
+                            <th>Dịch vụ khác</th>
+                            <th></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td class="bigw">Hấp Collagen</td>
+                            <td class="smallw">250k - 350k</td>
+                        </tr>
+                        <tr>
+                            <td class="bigw">Hấp Phục Hồi chuyên sâu</td>
+                            <td class="smallw">450k - 600k - 800k</td>
+                        </tr>
+                        <tr>
+                            <td class="bigw">Bấm Chân Tóc</td>
+                            <td class="smallw">350k - 450k</td>
+                        </tr>
+                        <tr>
+                            <td class="bigw">Xã bấm</td>
+                            <td class="smallw">300k</td>
+                        </tr>
+                        <tr>
+                            <td class="bigw">Uốn + Mái</td>
+                            <td class="smallw">100k</td>
+                        </tr>
+                        <tr>
+                            <td class="bigw">Hấp tóc nam</td>
+                            <td class="smallw">200k - 250k</td>
+                        </tr>
+                        <tr>
+                            <td class="bigw">Bấm tóc nam</td>
+                            <td class="smallw">200k - 300k</td>
+                        </tr>
+                        <tr>
+                            <td class="bigw">Uốn tóc nam</td>
+                            <td class="smallw">200k - 300k</td>
+                        </tr>
+                        <tr>
+                            <td class="bigw">Duỗi tóc nam</td>
+                            <td class="smallw">200k - 300k</td>
+                        </tr>
+                        <tr>
+                            <td class="bigw">Nhuộm tóc nam</td>
+                            <td class="smallw">200k - 300k</td>
+                        </tr>
+                        <tr>
+                            <td class="bigw">CoBom cắt , uốn , nhuộm</td>
+                            <td class="smallw">500k - 600k</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-sm-12 col-md-7 col-lg-7 col-padleft-none displayvisible">
+                    <div class="subtitle">
+                        <h2 class="titile col-xs-offset-2">Dịch vụ khác</h2>
+                    </div>
+                    <img src="phi/images/color.jpg" class="img-responsive" alt="Colour"> </div>
             </div>
         </div>
     </section>
