@@ -366,147 +366,162 @@
                 </div>
                 <div class="col-lg-12 filter">
                     <ul>
-                        <li><a href="#" data-filter="*" class="active">All</a></li>
-                        <li><a href="#" data-filter=".Wcut">Cắt</a></li>
-                        <li><a href="#" data-filter=".coloring">Nhuộm</a></li>
+                        <li><a href="#" data-filter="*" class="active">Tất cả</a></li>
                         <li><a href="#" data-filter=".styling">Tạo kiểu</a></li>
+                        <li><a href="#" data-filter=".coloring">Nhuộm</a></li>
+                        <li><a href="#" data-filter=".uon">Uốn</a></li>
                     </ul>
                 </div>
                 <div class="clearfix"></div>
                 <div class="portfoliodiv">
-                    <div class="col-25 coloring manucuring styling"> <a class="fancybox" href="phi/images/gallery/large/1.jpg" data-fancybox-group="gallery">
+                    <div class="col-25 styling"> <a class="fancybox" href="phi/images/gallery/tao-kieu/1.jpg" data-fancybox-group="gallery">
+                        <div class="hover">
+                            <img src="phi/images/gallery/tao-kieu/1.jpg" alt="Portfolio"/>
+                            <div class="mask-img">
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-25 coloring"> <a class="fancybox" href="phi/images/gallery/nhuom/1.jpg" data-fancybox-group="gallery">
+                        <div class="hover">
+                            <img src="phi/images/gallery/nhuom/1.jpg" alt="Portfolio"/>
+                            <div class="mask-img">
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-25 uon"> <a class="fancybox" href="phi/images/gallery/uon/1.jpg" data-fancybox-group="gallery">
                             <div class="hover">
-                                <img src="phi/images/gallery/large/1.jpg" alt="Portfolio"/>
+                                <img src="phi/images/gallery/uon/1.jpg" alt="Portfolio"/>
                                 <div class="mask-img">
-                                    <div class="hvrlink">
-                                        <h3>Cut</h3>
-                                        <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
-                                    </div>
                                 </div>
                             </div>
                         </a>
                     </div>
-                    <div class="col-25 Wcut"> <a class="fancybox" href="phi/images/gallery/large/2.jpg" data-fancybox-group="gallery">
-                            <div class="hover">
-                                <img src="phi/images/gallery/large/2.jpg" alt="Portfolio"/>
-                                <div class="mask-img">
-                                    <div class="hvrlink">
-                                        <h3>Style</h3>
-                                        <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
-                                    </div>
-                                </div>
+                    <div class="col-25 uon"> <a class="fancybox" href="phi/images/gallery/uon/2.jpg" data-fancybox-group="gallery">
+                        <div class="hover">
+                            <img src="phi/images/gallery/uon/2.jpg" alt="Portfolio"/>
+                            <div class="mask-img">
                             </div>
-                        </a> </div>
-                    <div class="col-25 coloring styling"> <a class="fancybox" href="phi/images/gallery/large/3.jpg" data-fancybox-group="gallery">
-                            <div class="hover">
-                                <img src="phi/images/gallery/large/3.jpg" alt="Portfolio"/>
-                                <div class="mask-img">
-                                    <div class="hvrlink">
-                                        <h3>Cut</h3>
-                                        <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
-                                    </div>
-                                </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-25 styling"> <a class="fancybox" href="phi/images/gallery/tao-kieu/2.jpg" data-fancybox-group="gallery">
+                        <div class="hover">
+                            <img src="phi/images/gallery/tao-kieu/2.jpg" alt="Portfolio"/>
+                            <div class="mask-img">
                             </div>
-                        </a> </div>
-                    <div class="col-25 Wcut"> <a class="fancybox" href="phi/images/gallery/large/4.jpg" data-fancybox-group="gallery">
-                            <div class="hover">
-                                <img src="phi/images/gallery/large/4.jpg" alt="Portfolio"/>
-                                <div class="mask-img">
-                                    <div class="hvrlink">
-                                        <h3>Style</h3>
-                                        <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
-                                    </div>
-                                </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-25 coloring"> <a class="fancybox" href="phi/images/gallery/nhuom/2.jpg" data-fancybox-group="gallery">
+                        <div class="hover">
+                            <img src="phi/images/gallery/nhuom/2.jpg" alt="Portfolio"/>
+                            <div class="mask-img">
                             </div>
-                        </a> </div>
-                    <div class="col-25 coloring"> <a class="fancybox" href="phi/images/gallery/large/5.jpg" data-fancybox-group="gallery">
-                            <div class="hover">
-                                <img src="phi/images/gallery/large/5.jpg" alt="Portfolio"/>
-                                <div class="mask-img">
-                                    <div class="hvrlink">
-                                        <h3>Cut</h3>
-                                        <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
-                                    </div>
-                                </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-25 styling"> <a class="fancybox" href="phi/images/gallery/tao-kieu/3.jpg" data-fancybox-group="gallery">
+                        <div class="hover">
+                            <img src="phi/images/gallery/tao-kieu/3.jpg" alt="Portfolio"/>
+                            <div class="mask-img">
                             </div>
-                        </a> </div>
-                    <div class="col-25 coloring"> <a class="fancybox" href="phi/images/gallery/large/6.jpg" data-fancybox-group="gallery">
-                            <div class="hover">
-                                <img src="phi/images/gallery/large/6.jpg" alt="Portfolio"/>
-                                <div class="mask-img">
-                                    <div class="hvrlink">
-                                        <h3>Style</h3>
-                                        <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
-                                    </div>
-                                </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-25 coloring"> <a class="fancybox" href="phi/images/gallery/nhuom/3.jpg" data-fancybox-group="gallery">
+                        <div class="hover">
+                            <img src="phi/images/gallery/nhuom/3.jpg" alt="Portfolio"/>
+                            <div class="mask-img">
                             </div>
-                        </a> </div>
-                    <div class="col-25 coloring styling"> <a class="fancybox" href="phi/images/gallery/large/7.jpg" data-fancybox-group="gallery">
-                            <div class="hover">
-                                <img src="phi/images/gallery/large/7.jpg" alt="Portfolio"/>
-                                <div class="mask-img">
-                                    <div class="hvrlink">
-                                        <h3>Cut</h3>
-                                        <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
-                                    </div>
-                                </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-25 uon"> <a class="fancybox" href="phi/images/gallery/uon/3.jpg" data-fancybox-group="gallery">
+                        <div class="hover">
+                            <img src="phi/images/gallery/uon/3.jpg" alt="Portfolio"/>
+                            <div class="mask-img">
                             </div>
-                        </a> </div>
-                    <div class="col-25"> <a class="fancybox" href="phi/images/gallery/large/8.jpg" data-fancybox-group="gallery">
-                            <div class="hover">
-                                <img src="phi/images/gallery/large/8.jpg" alt="Portfolio"/>
-                                <div class="mask-img">
-                                    <div class="hvrlink">
-                                        <h3>Style</h3>
-                                        <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
-                                    </div>
-                                </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-25 styling"> <a class="fancybox" href="phi/images/gallery/tao-kieu/4.jpg" data-fancybox-group="gallery">
+                        <div class="hover">
+                            <img src="phi/images/gallery/tao-kieu/4.jpg" alt="Portfolio"/>
+                            <div class="mask-img">
                             </div>
-                        </a> </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-25 coloring"> <a class="fancybox" href="phi/images/gallery/nhuom/4.jpg" data-fancybox-group="gallery">
+                        <div class="hover">
+                            <img src="phi/images/gallery/nhuom/4.jpg" alt="Portfolio"/>
+                            <div class="mask-img">
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-25 uon"> <a class="fancybox" href="phi/images/gallery/uon/4.jpg" data-fancybox-group="gallery">
+                        <div class="hover">
+                            <img src="phi/images/gallery/uon/4.jpg" alt="Portfolio"/>
+                            <div class="mask-img">
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-25 styling"> <a class="fancybox" href="phi/images/gallery/tao-kieu/5.jpg" data-fancybox-group="gallery">
+                        <div class="hover">
+                            <img src="phi/images/gallery/tao-kieu/5.jpg" alt="Portfolio"/>
+                            <div class="mask-img">
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-25 coloring"> <a class="fancybox" href="phi/images/gallery/nhuom/5.jpg" data-fancybox-group="gallery">
+                        <div class="hover">
+                            <img src="phi/images/gallery/nhuom/5.jpg" alt="Portfolio"/>
+                            <div class="mask-img">
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-25 uon"> <a class="fancybox" href="phi/images/gallery/uon/5.jpg" data-fancybox-group="gallery">
+                        <div class="hover">
+                            <img src="phi/images/gallery/uon/5.jpg" alt="Portfolio"/>
+                            <div class="mask-img">
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-25 styling"> <a class="fancybox" href="phi/images/gallery/tao-kieu/6.jpg" data-fancybox-group="gallery">
+                        <div class="hover">
+                            <img src="phi/images/gallery/tao-kieu/6.jpg" alt="Portfolio"/>
+                            <div class="mask-img">
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-25 coloring"> <a class="fancybox" href="phi/images/gallery/nhuom/6.jpg" data-fancybox-group="gallery">
+                        <div class="hover">
+                            <img src="phi/images/gallery/nhuom/6.jpg" alt="Portfolio"/>
+                            <div class="mask-img">
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-25 uon"> <a class="fancybox" href="phi/images/gallery/uon/6.jpg" data-fancybox-group="gallery">
+                        <div class="hover">
+                            <img src="phi/images/gallery/uon/6.jpg" alt="Portfolio"/>
+                            <div class="mask-img">
+                            </div>
+                        </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-{{--    <section id="promotions" class="col-padtop wow fadeInUp">--}}
-{{--        <div class="container">--}}
-{{--            <div class="row">--}}
-{{--                <div class="col-lg-12">--}}
-{{--                    <div class="bg-gray">--}}
-{{--                        <h2 class="text-center">Promotions and Specials</h2>--}}
-{{--                        <div class="col-sm-12 col-lg-12">--}}
-{{--                            <div id="myCarousel-1" class="carousel slide" data-ride="carousel">--}}
-{{--                                <div class="carousel-inner" role="listbox">--}}
-{{--                                    <div class="item active">--}}
-{{--                                        <div class="img-right"><img src="phi/images/sider-mini/P-slide-1.jpg" alt="First slide" class="img-responsive"></div>--}}
-{{--                                        <div class="col-pad4 gbg-white">--}}
-{{--                                            <h4>Free hair treatment</h4>--}}
-{{--                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus viverra nec. Nullam cursus, neque non congue aliquam, mauris massa consequat sem, ut laoreet nisi erat et lectus.</p>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                    <div class="item">--}}
-{{--                                        <div class="img-right"><img src="phi/images/sider-mini/P-slide-2.jpg" alt="First slide" class="img-responsive"></div>--}}
-{{--                                        <div class="gbg-white col-pad4">--}}
-{{--                                            <h4>Monday Makeup</h4>--}}
-{{--                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus viverra nec. Nullam cursus, neque non congue aliquam, mauris massa consequat sem, ut laoreet nisi erat et lectus.</p>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                    <div class="item">--}}
-{{--                                        <div class="img-right"><img src="phi/images/sider-mini/P-slide-3.jpg" alt="First slide" class="img-responsive"></div>--}}
-{{--                                        <div class="gbg-white col-pad4">--}}
-{{--                                            <h4>Happy Hair</h4>--}}
-{{--                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus viverra nec. Nullam cursus, neque non congue aliquam, mauris massa consequat sem, ut laoreet nisi erat et lectus.</p>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                                <div class="carousel-control"> <a class="left" href="#myCarousel-1" role="button" data-slide="prev"></a> <a class="right" href="#myCarousel-1" role="button" data-slide="next"></a> </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                        <div class="clearfix"></div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </section>--}}
 
     <section class="testimonialdiv wow fadeInUp">
         <div class="container">
