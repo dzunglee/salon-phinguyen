@@ -105,7 +105,7 @@
                     <div class="subtitle">
                         <h2 class="color">Gội</h2>
                     </div>
-                    <img src="phi/images/color.jpg" class="img-responsive" alt="Gội">
+                    <img src="phi/images/goi.jpg" class="img-responsive" alt="Gội">
                 </div>
                 <div class="col-sm-12 col-md-5 col-lg-5 col-padright-none">
                     <table class="table table-bordered table-striped">
@@ -272,10 +272,10 @@
             <div class="row marbottom wow fadeInUp">
                 <div class="col-sm-12 col-md-7 col-lg-7 col-padleft-none displayhide">
                     <div class="subtitle">
-                        <h2 class="titile col-xs-offset-2">Gội</h2>
+                        <h2 class="titile col-xs-offset-2">Dịch vụ khác</h2>
                     </div>
                     <div class="subtitle">
-                        <h2 class="color">Gội</h2>
+                        <h2 class="color">Dịch vụ khác</h2>
                     </div>
                     <img src="phi/images/color.jpg" class="img-responsive" alt="Gội">
                 </div>
