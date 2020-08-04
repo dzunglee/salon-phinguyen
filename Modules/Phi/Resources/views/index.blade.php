@@ -470,49 +470,9 @@
                         </div>
                         </a>
                     </div>
-                    <div class="col-25 styling"> <a class="fancybox" href="phi/images/gallery/tao-kieu/5.jpg" data-fancybox-group="gallery">
-                        <div class="hover">
-                            <img src="phi/images/gallery/tao-kieu/5.jpg" alt="Portfolio"/>
-                            <div class="mask-img">
-                            </div>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="col-25 coloring"> <a class="fancybox" href="phi/images/gallery/nhuom/5.jpg" data-fancybox-group="gallery">
-                        <div class="hover">
-                            <img src="phi/images/gallery/nhuom/5.jpg" alt="Portfolio"/>
-                            <div class="mask-img">
-                            </div>
-                        </div>
-                        </a>
-                    </div>
                     <div class="col-25 uon"> <a class="fancybox" href="phi/images/gallery/uon/5.jpg" data-fancybox-group="gallery">
                         <div class="hover">
                             <img src="phi/images/gallery/uon/5.jpg" alt="Portfolio"/>
-                            <div class="mask-img">
-                            </div>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="col-25 styling"> <a class="fancybox" href="phi/images/gallery/tao-kieu/6.jpg" data-fancybox-group="gallery">
-                        <div class="hover">
-                            <img src="phi/images/gallery/tao-kieu/6.jpg" alt="Portfolio"/>
-                            <div class="mask-img">
-                            </div>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="col-25 coloring"> <a class="fancybox" href="phi/images/gallery/nhuom/6.jpg" data-fancybox-group="gallery">
-                        <div class="hover">
-                            <img src="phi/images/gallery/nhuom/6.jpg" alt="Portfolio"/>
-                            <div class="mask-img">
-                            </div>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="col-25 uon"> <a class="fancybox" href="phi/images/gallery/uon/6.jpg" data-fancybox-group="gallery">
-                        <div class="hover">
-                            <img src="phi/images/gallery/uon/6.jpg" alt="Portfolio"/>
                             <div class="mask-img">
                             </div>
                         </div>
