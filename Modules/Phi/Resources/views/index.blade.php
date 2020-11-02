@@ -483,6 +483,39 @@
         </div>
     </section>
 
+    <section class="col-padtop">
+        <div class="demo-gallery container">
+            <div class="col-lg-12 text-center">
+                <h2>Video</h2>
+                <br>
+            </div>
+            <!-- Hidden video div -->
+            @for ($i = 1; $i < 21; $i++)
+                <div style="display:none;" id="video{{$i}}">
+                    <video class="lg-video-object lg-html5 video-js vjs-default-skin" controls preload="none">
+                        <source src="{{asset(sprintf('phi/images/gallery/video/video%s.mp4',$i))}}" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                    </video>
+                </div>
+            @endfor
+            
+            <!-- data-src should not be provided when you use html5 videos -->
+            <ul id="video-gallery" class="list-unstyled row">
+                @for ($i = 1; $i < 21; $i++)
+                    <li class="col-xs-6 col-sm-4 col-md-3 video" data-poster="{{asset(sprintf('phi/images/gallery/video/Screenshot_%s.jpg',$i))}}" data-html="#video{{$i}}" >
+                        <a href="">
+                            <img class="img-responsive" src="{{asset(sprintf('phi/images/gallery/video/Screenshot_%s.jpg',$i))}}">
+                            <div class="demo-gallery-poster">
+                                <img src="{{asset('phi/images/image/play-button.png')}}" />
+                            </div>
+                        </a>
+                    </li>
+                @endfor
+            </ul>
+        </div>
+        <br>
+    </section>
+
     <section class="testimonialdiv wow fadeInUp">
         <div class="container">
             <div class="testimonilabg">
@@ -529,3 +562,12 @@
         </div>
     </section>
 @endsection
+@push('scripts')
+    <script>
+        $(document).ready(function() {
+            $('#video-gallery').lightGallery({
+                videojs: true
+            });
+        });
+    </script>
+@endpush

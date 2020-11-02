@@ -30,6 +30,9 @@
     {{-- Laravel Mix - CSS File --}}
     <link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,200,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{asset('phi/css/master.css')}}">
+    <link rel="stylesheet" href="{{asset('phi/css/videogallery.css')}}">
+    <link href="{{asset('phi/js/lightgallery/css/lightgallery.css')}}" rel="stylesheet">
+    <link href="http://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet">
 
 </head>
 <body>
@@ -67,6 +70,9 @@ The following part can be removed on Server for On Demand Loading) -->
 <script src="{{asset('phi/js/revoluation/revolution.extension.parallax.min.js')}}"></script>
 <script src="{{asset('phi/js/revoluation/revolution.extension.slideanims.min.js')}}"></script>
 <script src="{{asset('phi/js/revoluation/revoluationfunction.js')}}"></script>
+<script src="{{asset('phi/js/lightgallery/js/lightgallery-all.min.js')}}"></script>
+<script src="http://vjs.zencdn.net/4.12/video.js"></script>
 {!! config('setting.fe_footer_scripts','') !!}
+@stack('scripts')
 </body>
 </html>
