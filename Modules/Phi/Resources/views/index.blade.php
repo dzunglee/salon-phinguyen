@@ -370,6 +370,7 @@
                         <li><a href="#" data-filter=".styling">Tạo kiểu</a></li>
                         <li><a href="#" data-filter=".coloring">Nhuộm</a></li>
                         <li><a href="#" data-filter=".uon">Uốn</a></li>
+                        <li><a href="#" data-filter=".moi">Triển lãm</a></li>
                     </ul>
                 </div>
                 <div class="clearfix"></div>
@@ -478,6 +479,16 @@
                         </div>
                         </a>
                     </div>
+                    @for ($i = 1; $i < 18; $i++)
+                        <div class="col-25 moi"> <a class="fancybox" href="phi/images/gallery/uon/5.jpg" data-fancybox-group="gallery">
+                            <div class="hover">
+                                <img src="phi/images/gallery/moi/anh{{$i}}.jpg" alt="Portfolio"/>
+                                <div class="mask-img">
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                    @endfor
                 </div>
             </div>
         </div>
