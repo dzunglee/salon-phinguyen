@@ -39,7 +39,7 @@
                         <h1>Salon Phi Nguyễn</h1>
                     </div>
                     <div class="white-bg">
-                        <p> Salon Phi Nguyễn nằm trên con đường 40 Lê Văn Chí. P Linh Trung. Q Thủ Đức Đây là một địa chỉ quen thuộc với những vị khách yêu cái đẹp trong suốt quãng thời gian Salon Phi Nguyễn mở cửa, hoạt động và vẫn liên tục đón tiếp những vị khách mới qua sự truyền tai nhau về tay nghề cũng như cái Tâm trong nghề của chủ Salon Phi Nguyễn.</p>
+                        <p> Salon Phi Nguyễn nằm trên con đường 78 Lê Văn Chí. P Linh Trung. Q Thủ Đức Đây là một địa chỉ quen thuộc với những vị khách yêu cái đẹp trong suốt quãng thời gian Salon Phi Nguyễn mở cửa, hoạt động và vẫn liên tục đón tiếp những vị khách mới qua sự truyền tai nhau về tay nghề cũng như cái Tâm trong nghề của chủ Salon Phi Nguyễn.</p>
                     </div>
                 </div>
             </div>

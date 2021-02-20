@@ -283,8 +283,8 @@ class MakePhiData extends Migration
                 'name' => 'description',
                 'type' => 'text',
                 'content' => $this->multiLanguage(
-                    'Salon Phi Nguyễn nằm trên con đường 40 Lê Văn Chí. P Linh Trung. Q Thủ Đức Đây là một địa chỉ quen thuộc với những vị khách yêu cái đẹp trong suốt quãng thời gian Salon Phi Nguyễn mở cửa, hoạt động và vẫn liên tục đón tiếp những vị khách mới qua sự truyền tai nhau về tay nghề cũng như cái Tâm trong nghề của chủ Salon Phi Nguyễn.',
-                    'Salon Phi Nguyễn nằm trên con đường 40 Lê Văn Chí. P Linh Trung. Q Thủ Đức Đây là một địa chỉ quen thuộc với những vị khách yêu cái đẹp trong suốt quãng thời gian Salon Phi Nguyễn mở cửa, hoạt động và vẫn liên tục đón tiếp những vị khách mới qua sự truyền tai nhau về tay nghề cũng như cái Tâm trong nghề của chủ Salon Phi Nguyễn.'
+                    'Salon Phi Nguyễn nằm trên con đường 78 Lê Văn Chí. P Linh Trung. Q Thủ Đức Đây là một địa chỉ quen thuộc với những vị khách yêu cái đẹp trong suốt quãng thời gian Salon Phi Nguyễn mở cửa, hoạt động và vẫn liên tục đón tiếp những vị khách mới qua sự truyền tai nhau về tay nghề cũng như cái Tâm trong nghề của chủ Salon Phi Nguyễn.',
+                    'Salon Phi Nguyễn nằm trên con đường 78 Lê Văn Chí. P Linh Trung. Q Thủ Đức Đây là một địa chỉ quen thuộc với những vị khách yêu cái đẹp trong suốt quãng thời gian Salon Phi Nguyễn mở cửa, hoạt động và vẫn liên tục đón tiếp những vị khách mới qua sự truyền tai nhau về tay nghề cũng như cái Tâm trong nghề của chủ Salon Phi Nguyễn.'
                 ),
                 'entity_id' => $post->id,
                 'entity_type' => 'App\Models\Post',

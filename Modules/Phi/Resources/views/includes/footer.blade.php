@@ -9,10 +9,10 @@
                 <div class="col-sm-12 col-md-8 col-lg-8">
                     <div class="contactmap">
                         <div class="mapcont">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d979.5927507558538!2d106.77798334563225!3d10.859360796698441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752770ebd384f1%3A0xe4515db4949f7bb5!2zNDAgTMOqIFbEg24gQ2jDrSwgUGjGsOG7nW5nIExpbmggVHJ1bmcsIFRo4bunIMSQ4bupYywgSOG7kyBDaMOtIE1pbmgsIFZpZXRuYW0!5e0!3m2!1sen!2s!4v1593515015911!5m2!1sen!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                            <iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=78%20L%C3%AA%20V%C4%83n%20Ch%C3%AD,%20Ph%C6%B0%E1%BB%9Dng%20Linh%20Trung,%20Th%E1%BB%A7%20%C4%90%E1%BB%A9c,%20Th%C3%A0nh%20ph%E1%BB%91%20H%E1%BB%93%20Ch%C3%AD%20Minh,%20Vietnam+(Hair%20Salon%20Phi%20Nguy%E1%BB%85n)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
                         </div>
                         <div class="social">
-                            <p>40 Lê Văn Chí. P Linh Trung. Q Thủ Đức</p>
+                            <p>78 Lê Văn Chí. P Linh Trung. Q Thủ Đức</p>
                             <span>Số điện thoại -  </span> <span>Email - <a href="mailto:info@websitec.com"></a></span>
                             <div class="social-icon">
                                 <a href="#" class="facebook"></a>
