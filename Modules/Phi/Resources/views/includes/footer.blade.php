@@ -12,7 +12,7 @@
                             <iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=78%20L%C3%AA%20V%C4%83n%20Ch%C3%AD,%20Ph%C6%B0%E1%BB%9Dng%20Linh%20Trung,%20Th%E1%BB%A7%20%C4%90%E1%BB%A9c,%20Th%C3%A0nh%20ph%E1%BB%91%20H%E1%BB%93%20Ch%C3%AD%20Minh,%20Vietnam+(Hair%20Salon%20Phi%20Nguy%E1%BB%85n)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
                         </div>
                         <div class="social">
-                            <p>78 Lê Văn Chí. P Linh Trung. Q Thủ Đức aa</p>
+                            <p>78 Lê Văn Chí. P Linh Trung. Q Thủ Đức</p>
                             <span>Số điện thoại -  </span> <span>Email - <a href="mailto:info@websitec.com"></a></span>
                             <div class="social-icon">
                                 <a href="#" class="facebook"></a>
