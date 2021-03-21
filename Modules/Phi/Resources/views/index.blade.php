@@ -48,9 +48,10 @@
     <section id="salon" class="col-padtop wow fadeInUp">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 col-md-6 col-lg-6 col-padright-none wow fadeInLeft"><img src="phi/images/saloon-1.jpg" alt="Saloon" /></div>
-                <div class="col-sm-6 col-md-6 col-lg-6 col-padleft-none wow fadeInRight"><img src="phi/images/saloon-2.jpg" alt="Saloon" /></div>
-                <div class="col-sm-6 col-md-6 col-lg-6 col-padleft-none wow fadeInRight"><img src="phi/images/saloon-3.jpg" alt="Saloon" /></div>
+                <div class="col-sm-6 col-md-6 col-lg-6 col-padright-none wow fadeInLeft"><img src="phi/images/anh1.jpg" alt="Saloon" /></div>
+                <div class="col-sm-6 col-md-6 col-lg-6 col-padleft-none wow fadeInRight"><img src="phi/images/anh2.jpg" alt="Saloon" /></div>
+                <div class="col-sm-6 col-md-6 col-lg-6 col-padright-none wow fadeInLeft"><img src="phi/images/anh3.jpg" alt="Saloon" /></div>
+                <div class="col-sm-6 col-md-6 col-lg-6 col-padleft-none wow fadeInRight"><img src="phi/images/anh4.jpg" alt="Saloon" /></div>
             </div>
         </div>
     </section>
