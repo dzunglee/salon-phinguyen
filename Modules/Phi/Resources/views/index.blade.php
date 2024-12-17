@@ -140,7 +140,7 @@
                             <tr>
                                 <td class="bigw">Hấp Phục hồi chuyên sâu <br>
                                     Phục Hồi (olaplex) Ý - Pháp </td>
-                                <td class="smallw">450k - 600k - 800k</td>
+                                <td class="smallw">500k - 700k - 900k</td>
                             </tr>
                         </tbody>
                         <thead>
